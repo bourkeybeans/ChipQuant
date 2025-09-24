@@ -4,9 +4,9 @@ from db import supabase
 def insert_into_staging(raw_text, parsed=None, status="pending", errors=None):
     data = {
         "raw_text": raw_text,
-        "parsed": parsed,
+        "parsed": parsed or {},
         "status": status,
-        "errors": errors,
+        "errors": errors or [],
     }
     return supabase.table("staging_hands").insert(data).execute()
 
@@ -25,6 +25,6 @@ def fetch_failed():
 def update_status(record_id, status, parsed=None, errors=None):
     return supabase.table("staging_hands").update({
         "status": status,
-        "parsed": parsed,
-        "errors": errors
+        "parsed": parsed or {},
+        "errors": errors or []
     }).eq("id", record_id).execute()
