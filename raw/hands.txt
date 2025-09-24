@@ -1,0 +1,1850 @@
+*********** # 1 **************
+PokerStars Hand #257563713105:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:24:02 ET
+Table 'Jovita VII' 6-max Seat #1 is the button
+Seat 1: NoBadBlood ($5.10 in chips)
+Seat 2: joeO10 ($4.09 in chips)
+Seat 3: farquan66 ($6.74 in chips)
+Seat 4: iBlindfrog ($4 in chips)
+Seat 5: NICOREZENDE ($6.91 in chips)
+Seat 6: viniciusmri ($5.88 in chips)
+joeO10: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [8c Qc]
+iBlindfrog: calls $0.05
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: raises $0.05 to $0.10
+farquan66: folds
+iBlindfrog: calls $0.05
+*** FLOP *** [9d 8d Tc]
+joeO10: checks
+iBlindfrog: checks
+*** TURN *** [9d 8d Tc] [Kh]
+joeO10: checks
+farquan66 leaves the table
+iBlindfrog: bets $0.24
+joeO10: folds
+Uncalled bet ($0.24) returned to iBlindfrog
+iBlindfrog collected $0.24 from pot
+iBlindfrog: doesn't show hand
+Lemonstr777 joins the table at seat #3
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [9d 8d Tc Kh]
+Seat 1: NoBadBlood (button) folded before Flop (didn't bet)
+Seat 2: joeO10 (small blind) folded on the Turn
+Seat 3: farquan66 (big blind) folded before Flop
+Seat 4: iBlindfrog collected ($0.24)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 2 **************
+PokerStars Hand #257563701388:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:23:23 ET
+Table 'Jovita VII' 6-max Seat #6 is the button
+Seat 1: NoBadBlood ($5.12 in chips)
+Seat 2: joeO10 ($4.29 in chips)
+Seat 3: farquan66 ($6.74 in chips)
+Seat 4: iBlindfrog ($4 in chips)
+Seat 5: NICOREZENDE ($6.71 in chips)
+Seat 6: viniciusmri ($5.88 in chips)
+NoBadBlood: posts small blind $0.02
+joeO10: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [4c 5h]
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: raises $0.07 to $0.12
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: calls $0.07
+*** FLOP *** [3c Jh Js]
+joeO10: checks
+NICOREZENDE: bets $0.08
+joeO10: calls $0.08
+*** TURN *** [3c Jh Js] [2s]
+joeO10: checks
+NICOREZENDE: bets $0.28
+joeO10: folds
+Uncalled bet ($0.28) returned to NICOREZENDE
+NICOREZENDE collected $0.40 from pot
+*** SUMMARY ***
+Total pot $0.42 | Rake $0.02
+Board [3c Jh Js 2s]
+Seat 1: NoBadBlood (small blind) folded before Flop
+Seat 2: joeO10 (big blind) folded on the Turn
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE collected ($0.40)
+Seat 6: viniciusmri (button) folded before Flop (didn't bet)
+
+
+*********** # 3 **************
+PokerStars Hand #257563680302:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:22:12 ET
+Table 'Jovita VII' 6-max Seat #5 is the button
+Seat 1: NoBadBlood ($5.17 in chips)
+Seat 2: joeO10 ($4.29 in chips)
+Seat 3: farquan66 ($7.43 in chips)
+Seat 4: iBlindfrog ($4 in chips)
+Seat 5: NICOREZENDE ($6.71 in chips)
+Seat 6: viniciusmri ($5.21 in chips)
+viniciusmri: posts small blind $0.02
+NoBadBlood: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Ks 9s]
+joeO10: folds
+farquan66: calls $0.05
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: raises $0.15 to $0.20
+NoBadBlood: folds
+farquan66: calls $0.15
+*** FLOP *** [5d Qc 2h]
+viniciusmri: bets $0.14
+farquan66: calls $0.14
+*** TURN *** [5d Qc 2h] [3s]
+viniciusmri: checks
+farquan66: bets $0.35
+viniciusmri: calls $0.35
+*** RIVER *** [5d Qc 2h 3s] [9c]
+viniciusmri: checks
+farquan66: checks
+*** SHOW DOWN ***
+viniciusmri: shows [Qs Ts] (a pair of Queens)
+farquan66: mucks hand
+viniciusmri collected $1.36 from pot
+*** SUMMARY ***
+Total pot $1.43 | Rake $0.07
+Board [5d Qc 2h 3s 9c]
+Seat 1: NoBadBlood (big blind) folded before Flop
+Seat 2: joeO10 folded before Flop (didn't bet)
+Seat 3: farquan66 mucked [Ks 9s]
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE (button) folded before Flop (didn't bet)
+Seat 6: viniciusmri (small blind) showed [Qs Ts] and won ($1.36) with a pair of Queens
+
+
+*********** # 4 **************
+PokerStars Hand #257563663387:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:21:15 ET
+Table 'Jovita VII' 6-max Seat #4 is the button
+Seat 1: NoBadBlood ($5.32 in chips)
+Seat 2: joeO10 ($4.29 in chips)
+Seat 3: farquan66 ($7.43 in chips)
+Seat 4: iBlindfrog ($3.70 in chips)
+Seat 5: NICOREZENDE ($6.73 in chips)
+Seat 6: viniciusmri ($5.36 in chips)
+NICOREZENDE: posts small blind $0.02
+viniciusmri: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [9c 3c]
+NoBadBlood: raises $0.10 to $0.15
+joeO10: folds
+farquan66: folds
+iBlindfrog: calls $0.15
+NICOREZENDE: folds
+viniciusmri: calls $0.10
+*** FLOP *** [7d Td 4d]
+viniciusmri: checks
+NoBadBlood: checks
+iBlindfrog: bets $0.23
+viniciusmri: folds
+NoBadBlood: folds
+Uncalled bet ($0.23) returned to iBlindfrog
+iBlindfrog collected $0.45 from pot
+iBlindfrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.47 | Rake $0.02
+Board [7d Td 4d]
+Seat 1: NoBadBlood folded on the Flop
+Seat 2: joeO10 folded before Flop (didn't bet)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog (button) collected ($0.45)
+Seat 5: NICOREZENDE (small blind) folded before Flop
+Seat 6: viniciusmri (big blind) folded on the Flop
+
+
+*********** # 5 **************
+PokerStars Hand #257563653766:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:20:43 ET
+Table 'Jovita VII' 6-max Seat #3 is the button
+Seat 1: NoBadBlood ($5.25 in chips)
+Seat 2: joeO10 ($4.29 in chips)
+Seat 3: farquan66 ($7.43 in chips)
+Seat 4: iBlindfrog ($3.72 in chips)
+Seat 5: NICOREZENDE ($6.78 in chips)
+Seat 6: viniciusmri ($5.36 in chips)
+iBlindfrog: posts small blind $0.02
+NICOREZENDE: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Js 3h]
+viniciusmri: folds
+NoBadBlood: raises $0.10 to $0.15
+joeO10: folds
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+Uncalled bet ($0.10) returned to NoBadBlood
+NoBadBlood collected $0.12 from pot
+NoBadBlood: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: NoBadBlood collected ($0.12)
+Seat 2: joeO10 folded before Flop (didn't bet)
+Seat 3: farquan66 (button) folded before Flop (didn't bet)
+Seat 4: iBlindfrog (small blind) folded before Flop
+Seat 5: NICOREZENDE (big blind) folded before Flop
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 6 **************
+PokerStars Hand #257563647881:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:20:23 ET
+Table 'Jovita VII' 6-max Seat #2 is the button
+Seat 1: NoBadBlood ($5.25 in chips)
+Seat 2: joeO10 ($4.29 in chips)
+Seat 3: farquan66 ($7.45 in chips)
+Seat 4: iBlindfrog ($3.70 in chips)
+Seat 5: NICOREZENDE ($6.78 in chips)
+Seat 6: viniciusmri ($5.36 in chips)
+farquan66: posts small blind $0.02
+iBlindfrog: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [4s 7c]
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: folds
+farquan66: folds
+Uncalled bet ($0.03) returned to iBlindfrog
+iBlindfrog collected $0.04 from pot
+iBlindfrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 (button) folded before Flop (didn't bet)
+Seat 3: farquan66 (small blind) folded before Flop
+Seat 4: iBlindfrog (big blind) collected ($0.04)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 7 **************
+PokerStars Hand #257563635392:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:19:42 ET
+Table 'Jovita VII' 6-max Seat #1 is the button
+Seat 1: NoBadBlood ($5.25 in chips)
+Seat 2: joeO10 ($4.31 in chips)
+Seat 3: farquan66 ($7.50 in chips)
+Seat 4: iBlindfrog ($1.91 in chips)
+Seat 5: NICOREZENDE ($8.69 in chips)
+Seat 6: viniciusmri ($5.36 in chips)
+joeO10: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Tc 9s]
+iBlindfrog: raises $1.86 to $1.91 and is all-in
+NICOREZENDE: calls $1.91
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: folds
+farquan66: folds
+*** FLOP *** [Jd 3d 9h]
+*** TURN *** [Jd 3d 9h] [2h]
+*** RIVER *** [Jd 3d 9h 2h] [Ad]
+*** SHOW DOWN ***
+iBlindfrog: shows [2s As] (two pair, Aces and Deuces)
+NICOREZENDE: shows [Ac Ks] (a pair of Aces)
+iBlindfrog collected $3.70 from pot
+*** SUMMARY ***
+Total pot $3.89 | Rake $0.19
+Board [Jd 3d 9h 2h Ad]
+Seat 1: NoBadBlood (button) folded before Flop (didn't bet)
+Seat 2: joeO10 (small blind) folded before Flop
+Seat 3: farquan66 (big blind) folded before Flop
+Seat 4: iBlindfrog showed [2s As] and won ($3.70) with two pair, Aces and Deuces
+Seat 5: NICOREZENDE showed [Ac Ks] and lost with a pair of Aces
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 8 **************
+PokerStars Hand #257563628086:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:19:17 ET
+Table 'Jovita VII' 6-max Seat #6 is the button
+Seat 1: NoBadBlood ($5.27 in chips)
+Seat 2: joeO10 ($4.29 in chips)
+Seat 3: farquan66 ($7.50 in chips)
+Seat 4: iBlindfrog ($1.91 in chips)
+Seat 5: NICOREZENDE ($8.69 in chips)
+Seat 6: viniciusmri ($5.36 in chips)
+NoBadBlood: posts small blind $0.02
+joeO10: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [5d 2d]
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: folds
+Uncalled bet ($0.03) returned to joeO10
+joeO10 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: NoBadBlood (small blind) folded before Flop
+Seat 2: joeO10 (big blind) collected ($0.04)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri (button) folded before Flop (didn't bet)
+
+
+*********** # 9 **************
+PokerStars Hand #257563616686:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:18:39 ET
+Table 'Jovita VII' 6-max Seat #5 is the button
+Seat 1: NoBadBlood ($5.32 in chips)
+Seat 2: joeO10 ($4.61 in chips)
+Seat 3: farquan66 ($7.50 in chips)
+Seat 4: iBlindfrog ($1.91 in chips)
+Seat 5: NICOREZENDE ($8.69 in chips)
+Seat 6: viniciusmri ($5.02 in chips)
+viniciusmri: posts small blind $0.02
+NoBadBlood: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [7h Qc]
+joeO10: raises $0.10 to $0.15
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: calls $0.13
+NoBadBlood: folds
+*** FLOP *** [Js Ks 9c]
+viniciusmri: checks
+joeO10: bets $0.17
+viniciusmri: raises $0.43 to $0.60
+joeO10: folds
+Uncalled bet ($0.43) returned to viniciusmri
+viniciusmri collected $0.66 from pot
+viniciusmri: doesn't show hand
+*** SUMMARY ***
+Total pot $0.69 | Rake $0.03
+Board [Js Ks 9c]
+Seat 1: NoBadBlood (big blind) folded before Flop
+Seat 2: joeO10 folded on the Flop
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE (button) folded before Flop (didn't bet)
+Seat 6: viniciusmri (small blind) collected ($0.66)
+
+
+*********** # 10 **************
+PokerStars Hand #257563605773:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:18:03 ET
+Table 'Jovita VII' 6-max Seat #4 is the button
+Seat 1: NoBadBlood ($5.32 in chips)
+Seat 2: joeO10 ($4.41 in chips)
+Seat 3: farquan66 ($7.50 in chips)
+Seat 4: iBlindfrog ($2.06 in chips)
+Seat 5: NICOREZENDE ($8.71 in chips)
+Seat 6: viniciusmri ($5.07 in chips)
+NICOREZENDE: posts small blind $0.02
+viniciusmri: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [3h 6h]
+NoBadBlood: folds
+joeO10: raises $0.10 to $0.15
+farquan66: folds
+iBlindfrog: calls $0.15
+NICOREZENDE: folds
+viniciusmri: folds
+*** FLOP *** [9c 7s 8d]
+joeO10: bets $0.18
+iBlindfrog: folds
+Uncalled bet ($0.18) returned to joeO10
+joeO10 collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.02
+Board [9c 7s 8d]
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 collected ($0.35)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog (button) folded on the Flop
+Seat 5: NICOREZENDE (small blind) folded before Flop
+Seat 6: viniciusmri (big blind) folded before Flop
+
+
+*********** # 11 **************
+PokerStars Hand #257563595634:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:17:29 ET
+Table 'Jovita VII' 6-max Seat #3 is the button
+Seat 1: NoBadBlood ($5.32 in chips)
+Seat 2: joeO10 ($4.41 in chips)
+Seat 3: farquan66 ($7.43 in chips)
+Seat 4: iBlindfrog ($2.08 in chips)
+Seat 5: NICOREZENDE ($8.76 in chips)
+Seat 6: viniciusmri ($5.07 in chips)
+iBlindfrog: posts small blind $0.02
+NICOREZENDE: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qc Jd]
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: folds
+farquan66: raises $0.05 to $0.10
+iBlindfrog: folds
+NICOREZENDE: folds
+Uncalled bet ($0.05) returned to farquan66
+farquan66 collected $0.12 from pot
+farquan66: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 folded before Flop (didn't bet)
+Seat 3: farquan66 (button) collected ($0.12)
+Seat 4: iBlindfrog (small blind) folded before Flop
+Seat 5: NICOREZENDE (big blind) folded before Flop
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 12 **************
+PokerStars Hand #257563586358:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:16:59 ET
+Table 'Jovita VII' 6-max Seat #2 is the button
+Seat 1: NoBadBlood ($5.25 in chips)
+Seat 2: joeO10 ($4.41 in chips)
+Seat 3: farquan66 ($7.45 in chips)
+Seat 4: iBlindfrog ($2.13 in chips)
+Seat 5: NICOREZENDE ($8.76 in chips)
+Seat 6: viniciusmri ($5.07 in chips)
+farquan66: posts small blind $0.02
+iBlindfrog: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [8d Td]
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: raises $0.10 to $0.15
+joeO10: folds
+farquan66: folds
+iBlindfrog: folds
+Uncalled bet ($0.10) returned to NoBadBlood
+NoBadBlood collected $0.12 from pot
+NoBadBlood: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: NoBadBlood collected ($0.12)
+Seat 2: joeO10 (button) folded before Flop (didn't bet)
+Seat 3: farquan66 (small blind) folded before Flop
+Seat 4: iBlindfrog (big blind) folded before Flop
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 13 **************
+PokerStars Hand #257563576843:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:16:27 ET
+Table 'Jovita VII' 6-max Seat #1 is the button
+Seat 1: NoBadBlood ($5.25 in chips)
+Seat 2: joeO10 ($4.43 in chips)
+Seat 3: farquan66 ($7.50 in chips)
+Seat 4: iBlindfrog ($2.13 in chips)
+Seat 5: NICOREZENDE ($8.69 in chips)
+Seat 6: viniciusmri ($5.07 in chips)
+joeO10: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [7s 3h]
+iBlindfrog: folds
+NICOREZENDE: raises $0.07 to $0.12
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: folds
+farquan66: folds
+Uncalled bet ($0.07) returned to NICOREZENDE
+NICOREZENDE collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: NoBadBlood (button) folded before Flop (didn't bet)
+Seat 2: joeO10 (small blind) folded before Flop
+Seat 3: farquan66 (big blind) folded before Flop
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE collected ($0.12)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 14 **************
+PokerStars Hand #257563568671:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:16:00 ET
+Table 'Jovita VII' 6-max Seat #6 is the button
+Seat 1: NoBadBlood ($5.27 in chips)
+Seat 2: joeO10 ($4.48 in chips)
+Seat 3: farquan66 ($7.50 in chips)
+Seat 4: iBlindfrog ($2.13 in chips)
+Seat 5: NICOREZENDE ($8.69 in chips)
+Seat 6: viniciusmri ($5 in chips)
+NoBadBlood: posts small blind $0.02
+joeO10: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [3d Js]
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: raises $0.10 to $0.15
+NoBadBlood: folds
+joeO10: folds
+Uncalled bet ($0.10) returned to viniciusmri
+viniciusmri collected $0.12 from pot
+viniciusmri: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: NoBadBlood (small blind) folded before Flop
+Seat 2: joeO10 (big blind) folded before Flop
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri (button) collected ($0.12)
+
+
+*********** # 15 **************
+PokerStars Hand #257563563300:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:15:43 ET
+Table 'Jovita VII' 6-max Seat #5 is the button
+Seat 1: NoBadBlood ($5.32 in chips)
+Seat 2: joeO10 ($4.41 in chips)
+Seat 3: farquan66 ($7.50 in chips)
+Seat 4: iBlindfrog ($2.13 in chips)
+Seat 5: NICOREZENDE ($8.69 in chips)
+Seat 6: viniciusmri ($5 in chips)
+viniciusmri: posts small blind $0.02
+NoBadBlood: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [2c 7d]
+joeO10: raises $0.10 to $0.15
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: folds
+Uncalled bet ($0.10) returned to joeO10
+joeO10 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: NoBadBlood (big blind) folded before Flop
+Seat 2: joeO10 collected ($0.12)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE (button) folded before Flop (didn't bet)
+Seat 6: viniciusmri (small blind) folded before Flop
+
+
+*********** # 16 **************
+PokerStars Hand #257563555717:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:15:18 ET
+Table 'Jovita VII' 6-max Seat #4 is the button
+Seat 1: NoBadBlood ($5.32 in chips)
+Seat 2: joeO10 ($4.34 in chips)
+Seat 3: farquan66 ($7.50 in chips)
+Seat 4: iBlindfrog ($2.13 in chips)
+Seat 5: NICOREZENDE ($8.71 in chips)
+Seat 6: viniciusmri ($5 in chips)
+NICOREZENDE: posts small blind $0.02
+viniciusmri: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [3h 8d]
+NoBadBlood: folds
+joeO10: raises $0.10 to $0.15
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+Uncalled bet ($0.10) returned to joeO10
+joeO10 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 collected ($0.12)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog (button) folded before Flop (didn't bet)
+Seat 5: NICOREZENDE (small blind) folded before Flop
+Seat 6: viniciusmri (big blind) folded before Flop
+
+
+*********** # 17 **************
+PokerStars Hand #257563542200:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:14:34 ET
+Table 'Jovita VII' 6-max Seat #3 is the button
+Seat 1: NoBadBlood ($5.32 in chips)
+Seat 2: joeO10 ($4.06 in chips)
+Seat 3: farquan66 ($7.75 in chips)
+Seat 4: iBlindfrog ($2.15 in chips)
+Seat 5: NICOREZENDE ($8.76 in chips)
+Seat 6: viniciusmri ($5 in chips)
+iBlindfrog: posts small blind $0.02
+NICOREZENDE: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Ah Td]
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: raises $0.10 to $0.15
+farquan66: raises $0.10 to $0.25
+iBlindfrog: folds
+NICOREZENDE: folds
+joeO10: calls $0.10
+*** FLOP *** [Kc 8c 6c]
+joeO10: bets $0.27
+farquan66: folds
+Uncalled bet ($0.27) returned to joeO10
+joeO10 collected $0.53 from pot
+*** SUMMARY ***
+Total pot $0.57 | Rake $0.04
+Board [Kc 8c 6c]
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 collected ($0.53)
+Seat 3: farquan66 (button) folded on the Flop
+Seat 4: iBlindfrog (small blind) folded before Flop
+Seat 5: NICOREZENDE (big blind) folded before Flop
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 18 **************
+PokerStars Hand #257563517696:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:13:12 ET
+Table 'Jovita VII' 6-max Seat #2 is the button
+Seat 1: NoBadBlood ($5.32 in chips)
+Seat 2: joeO10 ($2.16 in chips)
+Seat 3: farquan66 ($7.77 in chips)
+Seat 4: iBlindfrog ($4.31 in chips)
+Seat 5: NICOREZENDE ($8.76 in chips)
+Seat 6: viniciusmri ($5 in chips)
+farquan66: posts small blind $0.02
+iBlindfrog: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Th Ac]
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: raises $0.10 to $0.15
+farquan66: folds
+iBlindfrog: raises $0.10 to $0.25
+joeO10: calls $0.10
+*** FLOP *** [Jd 7d 9c]
+iBlindfrog: bets $0.49
+joeO10: calls $0.49
+*** TURN *** [Jd 7d 9c] [8c]
+iBlindfrog: bets $3.57 and is all-in
+joeO10: calls $1.42 and is all-in
+Uncalled bet ($2.15) returned to iBlindfrog
+*** RIVER *** [Jd 7d 9c 8c] [7c]
+*** SHOW DOWN ***
+iBlindfrog: shows [Qd Qh] (two pair, Queens and Sevens)
+joeO10: shows [9h 9s] (a full house, Nines full of Sevens)
+joeO10 collected $4.06 from pot
+*** SUMMARY ***
+Total pot $4.34 | Rake $0.28
+Board [Jd 7d 9c 8c 7c]
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 (button) showed [9h 9s] and won ($4.06) with a full house, Nines full of Sevens
+Seat 3: farquan66 (small blind) folded before Flop
+Seat 4: iBlindfrog (big blind) showed [Qd Qh] and lost with two pair, Queens and Sevens
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 19 **************
+PokerStars Hand #257563511241:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:12:51 ET
+Table 'Jovita VII' 6-max Seat #1 is the button
+Seat 1: NoBadBlood ($5.32 in chips)
+Seat 2: joeO10 ($2.18 in chips)
+Seat 3: farquan66 ($7.82 in chips)
+Seat 4: iBlindfrog ($4.31 in chips)
+Seat 5: NICOREZENDE ($8.69 in chips)
+Seat 6: viniciusmri ($5 in chips)
+joeO10: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Td 3c]
+iBlindfrog: folds
+NICOREZENDE: raises $0.07 to $0.12
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: folds
+farquan66: folds
+Uncalled bet ($0.07) returned to NICOREZENDE
+NICOREZENDE collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: NoBadBlood (button) folded before Flop (didn't bet)
+Seat 2: joeO10 (small blind) folded before Flop
+Seat 3: farquan66 (big blind) folded before Flop
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE collected ($0.12)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 20 **************
+PokerStars Hand #257563498355:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:12:09 ET
+Table 'Jovita VII' 6-max Seat #6 is the button
+Seat 1: NoBadBlood ($5.34 in chips)
+Seat 2: joeO10 ($2.02 in chips)
+Seat 3: farquan66 ($7.82 in chips)
+Seat 4: iBlindfrog ($4.47 in chips)
+Seat 5: NICOREZENDE ($8.69 in chips)
+Seat 6: viniciusmri ($5 in chips)
+NoBadBlood: posts small blind $0.02
+joeO10: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Jc 9d]
+farquan66: folds
+iBlindfrog: calls $0.05
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: checks
+*** FLOP *** [Td 3h 7h]
+joeO10: checks
+iBlindfrog: checks
+*** TURN *** [Td 3h 7h] [4h]
+joeO10: checks
+iBlindfrog: bets $0.11
+joeO10: calls $0.11
+*** RIVER *** [Td 3h 7h 4h] [Kd]
+joeO10: checks
+iBlindfrog: checks
+*** SHOW DOWN ***
+joeO10: shows [2s 3d] (a pair of Threes)
+iBlindfrog: mucks hand
+joeO10 collected $0.32 from pot
+*** SUMMARY ***
+Total pot $0.34 | Rake $0.02
+Board [Td 3h 7h 4h Kd]
+Seat 1: NoBadBlood (small blind) folded before Flop
+Seat 2: joeO10 (big blind) showed [2s 3d] and won ($0.32) with a pair of Threes
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog mucked [Jd Qh]
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri (button) folded before Flop (didn't bet)
+
+
+*********** # 21 **************
+PokerStars Hand #257563483548:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:11:20 ET
+Table 'Jovita VII' 6-max Seat #5 is the button
+Seat 1: NoBadBlood ($5.44 in chips)
+Seat 2: joeO10 ($1.91 in chips)
+Seat 3: farquan66 ($7.82 in chips)
+Seat 4: iBlindfrog ($4.47 in chips)
+Seat 5: NICOREZENDE ($8.69 in chips)
+Seat 6: viniciusmri ($5 in chips)
+viniciusmri: posts small blind $0.02
+NoBadBlood: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qc Ts]
+joeO10: raises $0.05 to $0.10
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: calls $0.05
+*** FLOP *** [Qd 2c 2h]
+NoBadBlood: checks
+joeO10: bets $0.11
+NoBadBlood: folds
+Uncalled bet ($0.11) returned to joeO10
+joeO10 collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01
+Board [Qd 2c 2h]
+Seat 1: NoBadBlood (big blind) folded on the Flop
+Seat 2: joeO10 collected ($0.21)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE (button) folded before Flop (didn't bet)
+Seat 6: viniciusmri (small blind) folded before Flop
+
+
+*********** # 22 **************
+PokerStars Hand #257563474172:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:10:49 ET
+Table 'Jovita VII' 6-max Seat #4 is the button
+Seat 1: NoBadBlood ($5.44 in chips)
+Seat 2: joeO10 ($1.71 in chips)
+Seat 3: farquan66 ($7.82 in chips)
+Seat 4: iBlindfrog ($4.62 in chips)
+Seat 5: NICOREZENDE ($8.71 in chips)
+Seat 6: viniciusmri ($5 in chips)
+NICOREZENDE: posts small blind $0.02
+viniciusmri: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [5c 3s]
+NoBadBlood: folds
+joeO10: raises $0.10 to $0.15
+farquan66: folds
+iBlindfrog: calls $0.15
+NICOREZENDE: folds
+viniciusmri: folds
+*** FLOP *** [9d 6h 5d]
+joeO10: bets $0.28
+iBlindfrog: folds
+Uncalled bet ($0.28) returned to joeO10
+joeO10 collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.02
+Board [9d 6h 5d]
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 collected ($0.35)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog (button) folded on the Flop
+Seat 5: NICOREZENDE (small blind) folded before Flop
+Seat 6: viniciusmri (big blind) folded before Flop
+
+
+*********** # 23 **************
+PokerStars Hand #257563469254:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:10:32 ET
+Table 'Jovita VII' 6-max Seat #3 is the button
+Seat 1: NoBadBlood ($5.44 in chips)
+Seat 2: joeO10 ($1.71 in chips)
+Seat 3: farquan66 ($7.82 in chips)
+Seat 4: iBlindfrog ($4.64 in chips)
+Seat 5: NICOREZENDE ($8.69 in chips)
+Seat 6: viniciusmri ($5 in chips)
+iBlindfrog: posts small blind $0.02
+NICOREZENDE: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [5h 9h]
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: folds
+farquan66: folds
+iBlindfrog: folds
+Uncalled bet ($0.03) returned to NICOREZENDE
+NICOREZENDE collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 folded before Flop (didn't bet)
+Seat 3: farquan66 (button) folded before Flop (didn't bet)
+Seat 4: iBlindfrog (small blind) folded before Flop
+Seat 5: NICOREZENDE (big blind) collected ($0.04)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 24 **************
+PokerStars Hand #257563455494:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:09:48 ET
+Table 'Jovita VII' 6-max Seat #2 is the button
+Seat 1: NoBadBlood ($5.44 in chips)
+Seat 2: joeO10 ($1.71 in chips)
+Seat 3: farquan66 ($7.60 in chips)
+Seat 4: iBlindfrog ($4.69 in chips)
+Seat 5: NICOREZENDE ($8.88 in chips)
+Seat 6: viniciusmri ($5 in chips)
+farquan66: posts small blind $0.02
+iBlindfrog: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Ac Jc]
+NICOREZENDE: raises $0.07 to $0.12
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: folds
+farquan66: raises $0.07 to $0.19
+iBlindfrog: folds
+NICOREZENDE: calls $0.07
+*** FLOP *** [Td 8d 7d]
+farquan66: bets $0.21
+NICOREZENDE: folds
+Uncalled bet ($0.21) returned to farquan66
+farquan66 collected $0.41 from pot
+farquan66: doesn't show hand
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02
+Board [Td 8d 7d]
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 (button) folded before Flop (didn't bet)
+Seat 3: farquan66 (small blind) collected ($0.41)
+Seat 4: iBlindfrog (big blind) folded before Flop
+Seat 5: NICOREZENDE folded on the Flop
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 25 **************
+PokerStars Hand #257563446167:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:09:17 ET
+Table 'Jovita VII' 6-max Seat #1 is the button
+Seat 1: NoBadBlood ($5.44 in chips)
+Seat 2: joeO10 ($1.73 in chips)
+Seat 3: farquan66 ($7.65 in chips)
+Seat 4: iBlindfrog ($4.62 in chips)
+Seat 5: NICOREZENDE ($8.88 in chips)
+Seat 6: viniciusmri ($5 in chips)
+joeO10: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [5c 4c]
+iBlindfrog: raises $0.10 to $0.15
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: folds
+farquan66: folds
+Uncalled bet ($0.10) returned to iBlindfrog
+iBlindfrog collected $0.12 from pot
+iBlindfrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: NoBadBlood (button) folded before Flop (didn't bet)
+Seat 2: joeO10 (small blind) folded before Flop
+Seat 3: farquan66 (big blind) folded before Flop
+Seat 4: iBlindfrog collected ($0.12)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 26 **************
+PokerStars Hand #257563414690:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:07:33 ET
+Table 'Jovita VII' 6-max Seat #6 is the button
+Seat 1: NoBadBlood ($5.46 in chips)
+Seat 2: joeO10 ($1.78 in chips)
+Seat 3: farquan66 ($6.83 in chips)
+Seat 4: iBlindfrog ($4.62 in chips)
+Seat 5: NICOREZENDE ($8.88 in chips)
+Seat 6: viniciusmri ($5.68 in chips)
+NoBadBlood: posts small blind $0.02
+joeO10: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Jc Js]
+farquan66: raises $0.05 to $0.10
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: raises $0.20 to $0.30
+NoBadBlood: folds
+joeO10: folds
+farquan66: raises $0.20 to $0.50
+viniciusmri: calls $0.20
+*** FLOP *** [Ks 8d Jd]
+farquan66: checks
+viniciusmri: checks
+*** TURN *** [Ks 8d Jd] [Qd]
+farquan66: checks
+viniciusmri: bets $0.34
+farquan66: calls $0.34
+*** RIVER *** [Ks 8d Jd Qd] [8h]
+farquan66: bets $1.66
+viniciusmri: folds
+Uncalled bet ($1.66) returned to farquan66
+farquan66 collected $1.66 from pot
+farquan66: doesn't show hand
+*** SUMMARY ***
+Total pot $1.75 | Rake $0.09
+Board [Ks 8d Jd Qd 8h]
+Seat 1: NoBadBlood (small blind) folded before Flop
+Seat 2: joeO10 (big blind) folded before Flop
+Seat 3: farquan66 collected ($1.66)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri (button) folded on the River
+
+
+*********** # 27 **************
+PokerStars Hand #257563400503:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:06:47 ET
+Table 'Jovita VII' 6-max Seat #5 is the button
+Seat 1: NoBadBlood ($5.51 in chips)
+Seat 2: joeO10 ($1.58 in chips)
+Seat 3: farquan66 ($6.83 in chips)
+Seat 4: iBlindfrog ($4.77 in chips)
+Seat 5: NICOREZENDE ($8.88 in chips)
+Seat 6: viniciusmri ($5.70 in chips)
+viniciusmri: posts small blind $0.02
+NoBadBlood: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qc Jh]
+joeO10: raises $0.10 to $0.15
+farquan66: folds
+iBlindfrog: calls $0.15
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: folds
+*** FLOP *** [5c 6c Kh]
+joeO10: bets $0.18
+iBlindfrog: folds
+Uncalled bet ($0.18) returned to joeO10
+joeO10 collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.02
+Board [5c 6c Kh]
+Seat 1: NoBadBlood (big blind) folded before Flop
+Seat 2: joeO10 collected ($0.35)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded on the Flop
+Seat 5: NICOREZENDE (button) folded before Flop (didn't bet)
+Seat 6: viniciusmri (small blind) folded before Flop
+
+
+*********** # 28 **************
+PokerStars Hand #257563395381:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:06:31 ET
+Table 'Jovita VII' 6-max Seat #4 is the button
+Seat 1: NoBadBlood ($5.51 in chips)
+Seat 2: joeO10 ($1.58 in chips)
+Seat 3: farquan66 ($6.83 in chips)
+Seat 4: iBlindfrog ($4.77 in chips)
+Seat 5: NICOREZENDE ($8.83 in chips)
+Seat 6: viniciusmri ($5.75 in chips)
+NICOREZENDE: posts small blind $0.02
+viniciusmri: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [9c Kd]
+NoBadBlood: folds
+joeO10: folds
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: raises $0.07 to $0.12
+viniciusmri: folds
+Uncalled bet ($0.07) returned to NICOREZENDE
+NICOREZENDE collected $0.10 from pot
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 folded before Flop (didn't bet)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog (button) folded before Flop (didn't bet)
+Seat 5: NICOREZENDE (small blind) collected ($0.10)
+Seat 6: viniciusmri (big blind) folded before Flop
+
+
+*********** # 29 **************
+PokerStars Hand #257563388653:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:06:09 ET
+Table 'Jovita VII' 6-max Seat #3 is the button
+Seat 1: NoBadBlood ($5.51 in chips)
+Seat 2: joeO10 ($1.51 in chips)
+Seat 3: farquan66 ($6.83 in chips)
+Seat 4: iBlindfrog ($4.79 in chips)
+Seat 5: NICOREZENDE ($8.88 in chips)
+Seat 6: viniciusmri ($5.75 in chips)
+iBlindfrog: posts small blind $0.02
+NICOREZENDE: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [6s 7d]
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: raises $0.10 to $0.15
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+Uncalled bet ($0.10) returned to joeO10
+joeO10 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 collected ($0.12)
+Seat 3: farquan66 (button) folded before Flop (didn't bet)
+Seat 4: iBlindfrog (small blind) folded before Flop
+Seat 5: NICOREZENDE (big blind) folded before Flop
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 30 **************
+PokerStars Hand #257563375057:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:05:25 ET
+Table 'Jovita VII' 6-max Seat #2 is the button
+Seat 1: NoBadBlood ($5.51 in chips)
+Seat 2: joeO10 ($1.51 in chips)
+Seat 3: farquan66 ($6.88 in chips)
+Seat 4: iBlindfrog ($4.74 in chips)
+Seat 5: NICOREZENDE ($8.88 in chips)
+Seat 6: viniciusmri ($5.75 in chips)
+farquan66: posts small blind $0.02
+iBlindfrog: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [7s 5d]
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: folds
+joeO10: folds
+farquan66: calls $0.03
+iBlindfrog: checks
+*** FLOP *** [Td 6h Ac]
+farquan66: checks
+iBlindfrog: bets $0.10
+farquan66: folds
+Uncalled bet ($0.10) returned to iBlindfrog
+iBlindfrog collected $0.10 from pot
+iBlindfrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Board [Td 6h Ac]
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 2: joeO10 (button) folded before Flop (didn't bet)
+Seat 3: farquan66 (small blind) folded on the Flop
+Seat 4: iBlindfrog (big blind) collected ($0.10)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 31 **************
+PokerStars Hand #257563357851:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:04:30 ET
+Table 'Jovita VII' 6-max Seat #1 is the button
+Seat 1: NoBadBlood ($5.38 in chips)
+Seat 2: joeO10 ($1.53 in chips)
+Seat 3: farquan66 ($7 in chips)
+Seat 4: iBlindfrog ($4.74 in chips)
+Seat 5: NICOREZENDE ($8.88 in chips)
+Seat 6: viniciusmri ($5.75 in chips)
+joeO10: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Kc 8d]
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: raises $0.07 to $0.12
+joeO10: folds
+farquan66: calls $0.07
+*** FLOP *** [Qh Jh 7h]
+farquan66: checks
+NoBadBlood: bets $0.13
+farquan66: folds
+Uncalled bet ($0.13) returned to NoBadBlood
+NoBadBlood collected $0.25 from pot
+NoBadBlood: doesn't show hand
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [Qh Jh 7h]
+Seat 1: NoBadBlood (button) collected ($0.25)
+Seat 2: joeO10 (small blind) folded before Flop
+Seat 3: farquan66 (big blind) folded on the Flop
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 32 **************
+PokerStars Hand #257563346156:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:03:52 ET
+Table 'Jovita VII' 6-max Seat #6 is the button
+Seat 1: NoBadBlood ($5.40 in chips)
+Seat 2: joeO10 ($1.58 in chips)
+Seat 3: farquan66 ($7 in chips)
+Seat 4: iBlindfrog ($4.79 in chips)
+Seat 5: NICOREZENDE ($9.25 in chips)
+Seat 6: viniciusmri ($5.30 in chips)
+NoBadBlood: posts small blind $0.02
+joeO10: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Jc 2h]
+farquan66: folds
+iBlindfrog: calls $0.05
+NICOREZENDE: raises $0.07 to $0.12
+viniciusmri: raises $0.25 to $0.37
+NoBadBlood: folds
+joeO10: folds
+iBlindfrog: folds
+NICOREZENDE: calls $0.25
+*** FLOP *** [Qs 2c 3d]
+NICOREZENDE: checks
+viniciusmri: bets $0.27
+NICOREZENDE: folds
+Uncalled bet ($0.27) returned to viniciusmri
+viniciusmri collected $0.82 from pot
+viniciusmri: doesn't show hand
+*** SUMMARY ***
+Total pot $0.86 | Rake $0.04
+Board [Qs 2c 3d]
+Seat 1: NoBadBlood (small blind) folded before Flop
+Seat 2: joeO10 (big blind) folded before Flop
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop
+Seat 5: NICOREZENDE folded on the Flop
+Seat 6: viniciusmri (button) collected ($0.82)
+
+
+*********** # 33 **************
+PokerStars Hand #257563329423:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:02:57 ET
+Table 'Jovita VII' 6-max Seat #5 is the button
+Seat 1: NoBadBlood ($5 in chips)
+Seat 2: joeO10 ($2 in chips)
+Seat 3: farquan66 ($7 in chips)
+Seat 4: iBlindfrog ($4.79 in chips)
+Seat 5: NICOREZENDE ($9.25 in chips)
+Seat 6: viniciusmri ($5.32 in chips)
+viniciusmri: posts small blind $0.02
+NoBadBlood: posts big blind $0.05
+joeO10: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [2d 5d]
+joeO10: raises $0.05 to $0.10
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+NoBadBlood: calls $0.05
+*** FLOP *** [3s 6c Js]
+NoBadBlood: checks
+joeO10: bets $0.11
+NoBadBlood: calls $0.11
+*** TURN *** [3s 6c Js] [4c]
+NoBadBlood: checks
+joeO10: bets $0.21
+NoBadBlood: calls $0.21
+*** RIVER *** [3s 6c Js 4c] [Qd]
+NoBadBlood: checks
+joeO10: checks
+*** SHOW DOWN ***
+NoBadBlood: shows [Jh 9d] (a pair of Jacks)
+joeO10: mucks hand
+NoBadBlood collected $0.82 from pot
+*** SUMMARY ***
+Total pot $0.86 | Rake $0.04
+Board [3s 6c Js 4c Qd]
+Seat 1: NoBadBlood (big blind) showed [Jh 9d] and won ($0.82) with a pair of Jacks
+Seat 2: joeO10 mucked [8h 8c]
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE (button) folded before Flop (didn't bet)
+Seat 6: viniciusmri (small blind) folded before Flop
+
+
+*********** # 34 **************
+PokerStars Hand #257563312862:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:02:01 ET
+Table 'Jovita VII' 6-max Seat #4 is the button
+Seat 1: NoBadBlood ($5 in chips)
+Seat 3: farquan66 ($7.05 in chips)
+Seat 4: iBlindfrog ($4.46 in chips)
+Seat 5: NICOREZENDE ($9.27 in chips)
+Seat 6: viniciusmri ($5.61 in chips)
+NICOREZENDE: posts small blind $0.02
+viniciusmri: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [5d 4d]
+NoBadBlood: folds
+farquan66: calls $0.05
+iBlindfrog: calls $0.05
+NICOREZENDE: folds
+viniciusmri: checks
+*** FLOP *** [Ad 8s Ks]
+joeO10 joins the table at seat #2
+viniciusmri: checks
+farquan66: checks
+iBlindfrog: bets $0.08
+viniciusmri: calls $0.08
+farquan66: folds
+*** TURN *** [Ad 8s Ks] [3s]
+viniciusmri: checks
+iBlindfrog: bets $0.16
+viniciusmri: calls $0.16
+*** RIVER *** [Ad 8s Ks 3s] [9c]
+viniciusmri: checks
+iBlindfrog: bets $4.17 and is all-in
+viniciusmri: folds
+Uncalled bet ($4.17) returned to iBlindfrog
+iBlindfrog collected $0.62 from pot
+iBlindfrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.65 | Rake $0.03
+Board [Ad 8s Ks 3s 9c]
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 3: farquan66 folded on the Flop
+Seat 4: iBlindfrog (button) collected ($0.62)
+Seat 5: NICOREZENDE (small blind) folded before Flop
+Seat 6: viniciusmri (big blind) folded on the River
+
+
+*********** # 35 **************
+PokerStars Hand #257563301205:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:01:17 ET
+Table 'Jovita VII' 6-max Seat #3 is the button
+Seat 1: NoBadBlood ($5 in chips)
+Seat 3: farquan66 ($6.91 in chips)
+Seat 4: iBlindfrog ($4.56 in chips)
+Seat 5: NICOREZENDE ($9.32 in chips)
+Seat 6: viniciusmri ($5.61 in chips)
+iBlindfrog: posts small blind $0.02
+NICOREZENDE: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Jc Js]
+viniciusmri: folds
+NoBadBlood: folds
+farquan66: raises $0.05 to $0.10
+KaiSaneq leaves the table
+iBlindfrog: calls $0.08
+NICOREZENDE: folds
+*** FLOP *** [Ts 7s 8c]
+iBlindfrog: checks
+farquan66: bets $0.05
+iBlindfrog: folds
+Uncalled bet ($0.05) returned to farquan66
+farquan66 collected $0.24 from pot
+farquan66: doesn't show hand
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [Ts 7s 8c]
+Seat 1: NoBadBlood folded before Flop (didn't bet)
+Seat 3: farquan66 (button) collected ($0.24)
+Seat 4: iBlindfrog (small blind) folded on the Flop
+Seat 5: NICOREZENDE (big blind) folded before Flop
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 36 **************
+PokerStars Hand #257563291953:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 17:00:32 ET
+Table 'Jovita VII' 6-max Seat #1 is the button
+Seat 1: NoBadBlood ($5 in chips)
+Seat 2: KaiSaneq ($0.62 in chips)
+Seat 3: farquan66 ($6.96 in chips)
+Seat 4: iBlindfrog ($4.56 in chips)
+Seat 5: NICOREZENDE ($9.32 in chips)
+Seat 6: viniciusmri ($5 in chips)
+KaiSaneq: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Jd 8d]
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: raises $0.10 to $0.15
+NoBadBlood: folds
+KaiSaneq: raises $0.10 to $0.25
+farquan66: folds
+viniciusmri: calls $0.10
+*** FLOP *** [4d Qh 4s]
+KaiSaneq: bets $0.37 and is all-in
+viniciusmri: calls $0.37
+*** TURN *** [4d Qh 4s] [Ah]
+*** RIVER *** [4d Qh 4s Ah] [6d]
+*** SHOW DOWN ***
+KaiSaneq: shows [7c 7d] (two pair, Sevens and Fours)
+viniciusmri: shows [Jc Ac] (two pair, Aces and Fours)
+viniciusmri collected $1.23 from pot
+*** SUMMARY ***
+Total pot $1.29 | Rake $0.06
+Board [4d Qh 4s Ah 6d]
+Seat 1: NoBadBlood (button) folded before Flop (didn't bet)
+Seat 2: KaiSaneq (small blind) showed [7c 7d] and lost with two pair, Sevens and Fours
+Seat 3: farquan66 (big blind) folded before Flop
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri showed [Jc Ac] and won ($1.23) with two pair, Aces and Fours
+
+
+*********** # 37 **************
+PokerStars Hand #257563284013:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:59:45 ET
+Table 'Jovita VII' 6-max Seat #6 is the button
+Seat 1: NoBadBlood ($5.02 in chips)
+Seat 2: KaiSaneq ($0.74 in chips)
+Seat 3: farquan66 ($7.01 in chips)
+Seat 4: iBlindfrog ($4.56 in chips)
+Seat 5: NICOREZENDE ($9.15 in chips)
+Seat 6: viniciusmri ($5 in chips)
+NoBadBlood: posts small blind $0.02
+KaiSaneq: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [4h 3h]
+farquan66: calls $0.05
+iBlindfrog: folds
+NICOREZENDE: raises $0.07 to $0.12
+viniciusmri: folds
+NoBadBlood: folds
+KaiSaneq: calls $0.07
+farquan66: folds
+*** FLOP *** [4c 8s 9h]
+KaiSaneq: checks
+NICOREZENDE: bets $0.09
+KaiSaneq: folds
+Uncalled bet ($0.09) returned to NICOREZENDE
+NICOREZENDE collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.02
+Board [4c 8s 9h]
+Seat 1: NoBadBlood (small blind) folded before Flop
+Seat 2: KaiSaneq (big blind) folded on the Flop
+Seat 3: farquan66 folded before Flop
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE collected ($0.29)
+Seat 6: viniciusmri (button) folded before Flop (didn't bet)
+
+
+*********** # 38 **************
+PokerStars Hand #257563280341:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:59:22 ET
+Table 'Jovita VII' 6-max Seat #5 is the button
+Seat 1: NoBadBlood ($5 in chips)
+Seat 2: KaiSaneq ($0.74 in chips)
+Seat 3: farquan66 ($7.01 in chips)
+Seat 4: iBlindfrog ($4.56 in chips)
+Seat 5: NICOREZENDE ($9.15 in chips)
+Seat 6: viniciusmri ($5 in chips)
+viniciusmri: posts small blind $0.02
+NoBadBlood: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [9s 5d]
+KaiSaneq: folds
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+Uncalled bet ($0.03) returned to NoBadBlood
+NoBadBlood collected $0.04 from pot
+NoBadBlood: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: NoBadBlood (big blind) collected ($0.04)
+Seat 2: KaiSaneq folded before Flop (didn't bet)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE (button) folded before Flop (didn't bet)
+Seat 6: viniciusmri (small blind) folded before Flop
+
+
+*********** # 39 **************
+PokerStars Hand #257563271932:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:58:28 ET
+Table 'Jovita VII' 6-max Seat #4 is the button
+Seat 2: KaiSaneq ($0.74 in chips)
+Seat 3: farquan66 ($7.01 in chips)
+Seat 4: iBlindfrog ($3.51 in chips)
+Seat 5: NICOREZENDE ($9.17 in chips)
+Seat 6: viniciusmri ($5 in chips)
+NICOREZENDE: posts small blind $0.02
+viniciusmri: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Tc 5c]
+KaiSaneq: folds
+farquan66: folds
+iBlindfrog: raises $0.10 to $0.15
+NICOREZENDE: folds
+viniciusmri: calls $0.10
+*** FLOP *** [9d 8c 5s]
+viniciusmri: checks
+iBlindfrog: bets $0.15
+viniciusmri: calls $0.15
+*** TURN *** [9d 8c 5s] [Qd]
+viniciusmri: checks
+iBlindfrog: bets $0.30
+viniciusmri: raises $0.55 to $0.85
+iBlindfrog: raises $0.55 to $1.40
+viniciusmri: folds
+Uncalled bet ($0.55) returned to iBlindfrog
+iBlindfrog collected $2.20 from pot
+iBlindfrog: doesn't show hand
+*** SUMMARY ***
+Total pot $2.32 | Rake $0.12
+Board [9d 8c 5s Qd]
+Seat 2: KaiSaneq folded before Flop (didn't bet)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog (button) collected ($2.20)
+Seat 5: NICOREZENDE (small blind) folded before Flop
+Seat 6: viniciusmri (big blind) folded on the Turn
+
+
+*********** # 40 **************
+PokerStars Hand #257563265929:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:57:51 ET
+Table 'Jovita VII' 6-max Seat #3 is the button
+Seat 2: KaiSaneq ($0.74 in chips)
+Seat 3: farquan66 ($6.95 in chips)
+Seat 4: iBlindfrog ($2.02 in chips)
+Seat 5: NICOREZENDE ($9.22 in chips)
+Seat 6: viniciusmri ($5 in chips)
+iBlindfrog: posts small blind $0.02
+NICOREZENDE: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [4c 7c]
+NoBadBlood joins the table at seat #1
+viniciusmri: folds
+KaiSaneq: folds
+farquan66: calls $0.05
+iBlindfrog: folds
+NICOREZENDE: checks
+*** FLOP *** [7d 2c Ah]
+NICOREZENDE: checks
+farquan66: bets $0.06
+NICOREZENDE: folds
+Uncalled bet ($0.06) returned to farquan66
+farquan66 collected $0.11 from pot
+farquan66: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0.01
+Board [7d 2c Ah]
+Seat 2: KaiSaneq folded before Flop (didn't bet)
+Seat 3: farquan66 (button) collected ($0.11)
+Seat 4: iBlindfrog (small blind) folded before Flop
+Seat 5: NICOREZENDE (big blind) folded on the Flop
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 41 **************
+PokerStars Hand #257563253583:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:56:34 ET
+Table 'Jovita VII' 6-max Seat #2 is the button
+Seat 2: KaiSaneq ($0.74 in chips)
+Seat 3: farquan66 ($6.97 in chips)
+Seat 4: iBlindfrog ($3.49 in chips)
+Seat 5: NICOREZENDE ($7.88 in chips)
+Seat 6: viniciusmri ($5 in chips)
+farquan66: posts small blind $0.02
+iBlindfrog: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [4d Jh]
+Winrik leaves the table
+NICOREZENDE: raises $0.07 to $0.12
+viniciusmri: folds
+KaiSaneq: folds
+farquan66: folds
+iBlindfrog: calls $0.07
+*** FLOP *** [4c Jd 5s]
+iBlindfrog: bets $0.13
+NICOREZENDE: calls $0.13
+*** TURN *** [4c Jd 5s] [7h]
+iBlindfrog: bets $0.25
+NICOREZENDE: calls $0.25
+*** RIVER *** [4c Jd 5s 7h] [Qh]
+iBlindfrog: bets $0.97
+NICOREZENDE: calls $0.97
+*** SHOW DOWN ***
+iBlindfrog: shows [Kd Js] (a pair of Jacks)
+NICOREZENDE: shows [Qd Ah] (a pair of Queens)
+NICOREZENDE collected $2.81 from pot
+*** SUMMARY ***
+Total pot $2.96 | Rake $0.15
+Board [4c Jd 5s 7h Qh]
+Seat 2: KaiSaneq (button) folded before Flop (didn't bet)
+Seat 3: farquan66 (small blind) folded before Flop
+Seat 4: iBlindfrog (big blind) showed [Kd Js] and lost with a pair of Jacks
+Seat 5: NICOREZENDE showed [Qd Ah] and won ($2.81) with a pair of Queens
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 42 **************
+PokerStars Hand #257563246394:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:55:48 ET
+Table 'Jovita VII' 6-max Seat #6 is the button
+Seat 1: Winrik ($0.08 in chips)
+Seat 2: KaiSaneq ($0.79 in chips)
+Seat 3: farquan66 ($6.88 in chips)
+Seat 4: iBlindfrog ($3.49 in chips)
+Seat 5: NICOREZENDE ($7.88 in chips)
+Seat 6: viniciusmri ($5 in chips)
+Winrik: posts small blind $0.02
+KaiSaneq: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [9d Th]
+farquan66: calls $0.05
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+Winrik: calls $0.03
+KaiSaneq: checks
+*** FLOP *** [2d 2s Jh]
+Winrik: checks
+KaiSaneq: checks
+farquan66: bets $0.07
+Winrik: folds
+KaiSaneq: folds
+Uncalled bet ($0.07) returned to farquan66
+farquan66 collected $0.14 from pot
+farquan66: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [2d 2s Jh]
+Seat 1: Winrik (small blind) folded on the Flop
+Seat 2: KaiSaneq (big blind) folded on the Flop
+Seat 3: farquan66 collected ($0.14)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri (button) folded before Flop (didn't bet)
+
+
+*********** # 43 **************
+PokerStars Hand #257563242013:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:55:20 ET
+Table 'Jovita VII' 6-max Seat #5 is the button
+Seat 1: Winrik ($0.09 in chips)
+Seat 2: KaiSaneq ($0.79 in chips)
+Seat 3: farquan66 ($6.88 in chips)
+Seat 4: iBlindfrog ($3.49 in chips)
+Seat 5: NICOREZENDE ($7.88 in chips)
+Seat 6: viniciusmri ($5 in chips)
+viniciusmri: posts small blind $0.02
+Winrik: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Tc 5s]
+KaiSaneq: folds
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: raises $0.10 to $0.15
+Winrik: calls $0.04 and is all-in
+Uncalled bet ($0.06) returned to viniciusmri
+*** FLOP *** [2d 2s 2h]
+*** TURN *** [2d 2s 2h] [2c]
+*** RIVER *** [2d 2s 2h 2c] [As]
+*** SHOW DOWN ***
+viniciusmri: shows [5c Ah] (four of a kind, Deuces)
+Winrik: shows [8d 7s] (four of a kind, Deuces)
+viniciusmri collected $0.09 from pot
+Winrik collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [2d 2s 2h 2c As]
+Seat 1: Winrik (big blind) showed [8d 7s] and won ($0.08) with four of a kind, Deuces
+Seat 2: KaiSaneq folded before Flop (didn't bet)
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE (button) folded before Flop (didn't bet)
+Seat 6: viniciusmri (small blind) showed [5c Ah] and won ($0.09) with four of a kind, Deuces
+
+
+*********** # 44 **************
+PokerStars Hand #257563231964:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:54:41 ET
+Table 'Jovita VII' 6-max Seat #4 is the button
+Seat 1: Winrik ($0.47 in chips)
+Seat 2: KaiSaneq ($0.38 in chips)
+Seat 3: farquan66 ($6.88 in chips)
+Seat 4: iBlindfrog ($3.49 in chips)
+Seat 5: NICOREZENDE ($7.90 in chips)
+Seat 6: viniciusmri ($5 in chips)
+NICOREZENDE: posts small blind $0.02
+viniciusmri: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [2d As]
+Winrik: raises $0.05 to $0.10
+KaiSaneq: calls $0.10
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+*** FLOP *** [3h 9h Ad]
+Winrik: checks
+KaiSaneq: checks
+*** TURN *** [3h 9h Ad] [4s]
+Winrik: bets $0.05
+KaiSaneq: calls $0.05
+*** RIVER *** [3h 9h Ad 4s] [Kh]
+Winrik: bets $0.32 and is all-in
+KaiSaneq: calls $0.23 and is all-in
+Uncalled bet ($0.09) returned to Winrik
+*** SHOW DOWN ***
+Winrik: shows [3c 9d] (two pair, Nines and Threes)
+KaiSaneq: shows [9c Ac] (two pair, Aces and Nines)
+KaiSaneq collected $0.79 from pot
+*** SUMMARY ***
+Total pot $0.83 | Rake $0.04
+Board [3h 9h Ad 4s Kh]
+Seat 1: Winrik showed [3c 9d] and lost with two pair, Nines and Threes
+Seat 2: KaiSaneq showed [9c Ac] and won ($0.79) with two pair, Aces and Nines
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog (button) folded before Flop (didn't bet)
+Seat 5: NICOREZENDE (small blind) folded before Flop
+Seat 6: viniciusmri (big blind) folded before Flop
+
+
+*********** # 45 **************
+PokerStars Hand #257563222847:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:54:12 ET
+Table 'Jovita VII' 6-max Seat #3 is the button
+Seat 1: Winrik ($0.47 in chips)
+Seat 2: KaiSaneq ($0.38 in chips)
+Seat 3: farquan66 ($6.81 in chips)
+Seat 4: iBlindfrog ($3.51 in chips)
+Seat 5: NICOREZENDE ($7.95 in chips)
+Seat 6: viniciusmri ($5 in chips)
+iBlindfrog: posts small blind $0.02
+NICOREZENDE: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [6d Ah]
+viniciusmri: folds
+Winrik: folds
+KaiSaneq: folds
+farquan66: raises $0.05 to $0.10
+iBlindfrog: folds
+NICOREZENDE: folds
+Uncalled bet ($0.05) returned to farquan66
+farquan66 collected $0.12 from pot
+farquan66: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: Winrik folded before Flop (didn't bet)
+Seat 2: KaiSaneq folded before Flop (didn't bet)
+Seat 3: farquan66 (button) collected ($0.12)
+Seat 4: iBlindfrog (small blind) folded before Flop
+Seat 5: NICOREZENDE (big blind) folded before Flop
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 46 **************
+PokerStars Hand #257563206213:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:53:18 ET
+Table 'Jovita VII' 6-max Seat #2 is the button
+Seat 1: Winrik ($0.68 in chips)
+Seat 2: KaiSaneq ($0.38 in chips)
+Seat 3: farquan66 ($6.83 in chips)
+Seat 4: iBlindfrog ($3.30 in chips)
+Seat 5: NICOREZENDE ($7.95 in chips)
+Seat 6: viniciusmri ($5 in chips)
+farquan66: posts small blind $0.02
+iBlindfrog: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Jc Td]
+NICOREZENDE: folds
+viniciusmri: folds
+Winrik: raises $0.05 to $0.10
+KaiSaneq: folds
+farquan66: folds
+iBlindfrog: calls $0.05
+*** FLOP *** [Jh Qh 4c]
+iBlindfrog: checks
+Winrik: bets $0.11
+iBlindfrog: calls $0.11
+*** TURN *** [Jh Qh 4c] [Ac]
+iBlindfrog: bets $0.52
+Winrik: folds
+Uncalled bet ($0.52) returned to iBlindfrog
+iBlindfrog collected $0.42 from pot
+iBlindfrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.44 | Rake $0.02
+Board [Jh Qh 4c Ac]
+Seat 1: Winrik folded on the Turn
+Seat 2: KaiSaneq (button) folded before Flop (didn't bet)
+Seat 3: farquan66 (small blind) folded before Flop
+Seat 4: iBlindfrog (big blind) collected ($0.42)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 47 **************
+PokerStars Hand #257563192135:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:52:32 ET
+Table 'Jovita VII' 6-max Seat #1 is the button
+Seat 1: Winrik ($0.57 in chips)
+Seat 2: KaiSaneq ($0.40 in chips)
+Seat 3: farquan66 ($6.93 in chips)
+Seat 4: iBlindfrog ($3.30 in chips)
+Seat 5: NICOREZENDE ($7.95 in chips)
+Seat 6: viniciusmri ($5 in chips)
+KaiSaneq: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qs 4s]
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+Winrik: raises $0.05 to $0.10
+KaiSaneq: folds
+farquan66: calls $0.05
+*** FLOP *** [Ac 7d 8d]
+farquan66: checks
+Winrik: checks
+*** TURN *** [Ac 7d 8d] [Kd]
+farquan66: checks
+Winrik: bets $0.11
+farquan66: folds
+Uncalled bet ($0.11) returned to Winrik
+Winrik collected $0.21 from pot
+Winrik: doesn't show hand
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01
+Board [Ac 7d 8d Kd]
+Seat 1: Winrik (button) collected ($0.21)
+Seat 2: KaiSaneq (small blind) folded before Flop
+Seat 3: farquan66 (big blind) folded on the Turn
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri folded before Flop (didn't bet)
+
+
+*********** # 48 **************
+PokerStars Hand #257563184091:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:52:06 ET
+Table 'Jovita VII' 6-max Seat #6 is the button
+Seat 1: Winrik ($0.48 in chips)
+Seat 2: KaiSaneq ($0.50 in chips)
+Seat 3: farquan66 ($6.93 in chips)
+Seat 4: iBlindfrog ($3.30 in chips)
+Seat 5: NICOREZENDE ($7.95 in chips)
+Seat 6: viniciusmri ($5 in chips)
+Winrik: posts small blind $0.02
+KaiSaneq: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [8c 5s]
+farquan66: folds
+iBlindfrog: folds
+NICOREZENDE: folds
+viniciusmri: folds
+Winrik: raises $0.05 to $0.10
+KaiSaneq: calls $0.05
+*** FLOP *** [4h Th Js]
+Winrik: bets $0.10
+KaiSaneq: folds
+Uncalled bet ($0.10) returned to Winrik
+Winrik collected $0.19 from pot
+Winrik: doesn't show hand
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [4h Th Js]
+Seat 1: Winrik (small blind) collected ($0.19)
+Seat 2: KaiSaneq (big blind) folded on the Flop
+Seat 3: farquan66 folded before Flop (didn't bet)
+Seat 4: iBlindfrog folded before Flop (didn't bet)
+Seat 5: NICOREZENDE folded before Flop (didn't bet)
+Seat 6: viniciusmri (button) folded before Flop (didn't bet)
+
+
+*********** # 49 **************
+PokerStars Hand #257563162299:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:50:55 ET
+Table 'Jovita VII' 6-max Seat #5 is the button
+Seat 1: Winrik ($0.81 in chips)
+Seat 2: KaiSaneq ($0.50 in chips)
+Seat 3: farquan66 ($6.30 in chips)
+Seat 4: iBlindfrog ($3.63 in chips)
+Seat 5: NICOREZENDE ($7.95 in chips)
+Seat 6: viniciusmri ($5 in chips)
+viniciusmri: posts small blind $0.02
+Winrik: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Jh Qs]
+KaiSaneq: folds
+farquan66: calls $0.05
+iBlindfrog: calls $0.05
+NICOREZENDE: folds
+viniciusmri: folds
+Winrik: checks
+*** FLOP *** [7s Jd 4s]
+Winrik: checks
+farquan66: bets $0.08
+iBlindfrog: calls $0.08
+Winrik: calls $0.08
+*** TURN *** [7s Jd 4s] [As]
+Winrik: checks
+farquan66: checks
+iBlindfrog: checks
+*** RIVER *** [7s Jd 4s As] [8d]
+Winrik: bets $0.20
+farquan66: calls $0.20
+iBlindfrog: calls $0.20
+*** SHOW DOWN ***
+Winrik: shows [6d 2s] (high card Ace)
+farquan66: shows [Jh Qs] (a pair of Jacks)
+iBlindfrog: mucks hand
+farquan66 collected $0.96 from pot
+*** SUMMARY ***
+Total pot $1.01 | Rake $0.05
+Board [7s Jd 4s As 8d]
+Seat 1: Winrik (big blind) showed [6d 2s] and lost with high card Ace
+Seat 2: KaiSaneq folded before Flop (didn't bet)
+Seat 3: farquan66 showed [Jh Qs] and won ($0.96) with a pair of Jacks
+Seat 4: iBlindfrog mucked [Js Tc]
+Seat 5: NICOREZENDE (button) folded before Flop (didn't bet)
+Seat 6: viniciusmri (small blind) folded before Flop
+
+
+*********** # 50 **************
+PokerStars Hand #257563135743:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/08/31 16:49:28 ET
+Table 'Jovita VII' 6-max Seat #4 is the button
+Seat 1: Winrik ($0.96 in chips)
+Seat 2: KaiSaneq ($0.50 in chips)
+Seat 3: farquan66 ($5.59 in chips)
+Seat 4: iBlindfrog ($3.78 in chips)
+Seat 5: NICOREZENDE ($7.97 in chips)
+Seat 6: viniciusmri ($4 in chips)
+NICOREZENDE: posts small blind $0.02
+viniciusmri is connected
+viniciusmri: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Ks As]
+Winrik: raises $0.05 to $0.10
+KaiSaneq: folds
+farquan66: raises $0.05 to $0.15
+iBlindfrog: calls $0.15
+NICOREZENDE: folds
+viniciusmri: calls $0.10
+Winrik: calls $0.05
+*** FLOP *** [3s Tc Ah]
+viniciusmri: checks
+Winrik: checks
+farquan66: bets $0.30
+iBlindfrog: folds
+viniciusmri: calls $0.30
+Winrik: folds
+*** TURN *** [3s Tc Ah] [4s]
+viniciusmri: checks
+farquan66: bets $0.58
+viniciusmri: folds
+Uncalled bet ($0.58) returned to farquan66
+farquan66 collected $1.16 from pot
+farquan66: doesn't show hand
+*** SUMMARY ***
+Total pot $1.22 | Rake $0.06
+Board [3s Tc Ah 4s]
+Seat 1: Winrik folded on the Flop
+Seat 2: KaiSaneq folded before Flop (didn't bet)
+Seat 3: farquan66 collected ($1.16)
+Seat 4: iBlindfrog (button) folded on the Flop
+Seat 5: NICOREZENDE (small blind) folded before Flop
+Seat 6: viniciusmri (big blind) folded on the Turn
