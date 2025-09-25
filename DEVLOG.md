@@ -151,3 +151,75 @@ Analytics: Queries for VPIP, PFR, Aggression, Winrate.
 Dashboard: Flask/Streamlit/React page to visualize sessions.
 
 Leak detection: Rule-based (and later ML).
+
+
+# Dev Log
+
+## [2025-09-25] Actions Normalization + ETL Safety Net
+- **Decision:** Added a safety normalization layer in ETL to standardize actions.
+- **Reasoning:**
+  - Ensures database constraints are respected even if staging data is stale or partially malformed.
+  - Keeps the DB consistent while allowing the parser to evolve.
+- **Options Considered:**
+  1. Only rely on the parser for normalization (simpler, but fails if staging has old data).
+  2. Add ETL-level normalization (extra safety at cost of duplicate logic).
+- **Choice:** Implement ETL normalization as a safeguard.
+- **Pros:** More robust, handles legacy staging rows, prevents constraint errors.
+- **Cons:** Duplicate normalization logic exists in both parser and ETL (must keep consistent).
+- **Next Step:** Consider adding a reprocessor to automatically re-parse any staging rows with outdated structure.
+
+## [2025-09-25] Staging Reset Strategy
+- **Decision:** Delete/reparse staging rows after schema or parser changes.
+- **Reasoning:** Old parsed JSON in staging was incompatible with new schema rules.
+- **Options Considered:**
+  1. Patch staging data in place.
+  2. Clear staging and re-run the parser.
+- **Choice:** Clear staging and re-run for simplicity.
+- **Pros:** Guaranteed fresh, consistent data.
+- **Cons:** Loses original staging history (unless archived).
+- **Lesson Learned:** Staging is *ephemeral* by design — it’s safe to wipe/refresh after logic changes.
+
+
+## [2025-09-25] Including Actions with Normalized Amounts
+
+- **Decision:** Extend the parser to capture **every player action** (`post_small_blind`, `call`, `raise`, `bet`, `check`, `fold`) along with a normalized **numeric amount**.
+- **Reasoning:**
+  - Initial schema only tracked results (who collected the pot).
+  - To compute *net gain/loss*, *VPIP*, *PFR*, and positional stats, the database must know how much each player contributed per street.
+  - This also enables deeper analysis like EV calculation, aggression frequency, and leak detection models later.
+- **Options Considered:**
+  1. Only store **end results** (simpler, smaller schema, but no insight into *how* the result happened).
+  2. Store actions but leave amounts as raw text (`"raises $0.05 to $0.10"`) — loses numeric structure, harder queries.
+  3. Store actions with **normalized action labels** + **numeric amounts** (best for analytics).
+- **Choice:** Option 3 (normalized actions + amounts).
+- **Pros:**
+  - Rich analytics possible (VPIP, PFR, c-bet frequency, 3-bet ranges, etc.).
+  - Schema supports future ML models without refactoring.
+  - Normalized values are query-friendly in SQL.
+- **Cons:**
+  - More parsing complexity and regex maintenance.
+  - Bigger storage footprint (extra action rows per hand).
+- **Lesson Learned:** Investing in action-level granularity makes the project *future-proof* for both analytics and ML leak detection.
+
+
+## [2025-09-25] Normalizing Player Schema (hand_players Join Table)
+
+- **Decision:** Replace storing players directly inside `hands` with a **normalized schema**:
+  - `players` table (unique player identities).
+  - `hand_players` table (join table linking `hands` ↔ `players` with seat, stack, cards, and result).
+- **Reasoning:**
+  - Original design stored `players` inline in each `hand` row → created a *many-to-many problem* (duplicate player names across hands).
+  - Querying for stats by player name (e.g., bankroll, VPIP, win rate) would require searching across JSON blobs or denormalized rows.
+- **Options Considered:**
+  1. Keep `players` nested inside `hands` (simpler, no joins).
+  2. Flat `players` table only (breaks because same player plays in multiple hands).
+  3. Normalized `players` + `hand_players` join table (relationally correct).
+- **Choice:** Option 3 (normalized schema with join table).
+- **Pros:**
+  - Eliminates duplication of player data.
+  - Queries by player name become simple (`JOIN` on `hand_players`).
+  - Easier to extend later (e.g., global player stats vs per-hand stats).
+- **Cons:**
+  - More complex inserts (must insert to `players` and `hand_players`).
+  - Requires managing foreign keys between hands ↔ players ↔ actions.
+- **Lesson Learned:** Proper normalization early prevents pain later. Separating identities (`players`) from participation (`hand_players`) aligns with relational design best practices and supports analytics/ML.

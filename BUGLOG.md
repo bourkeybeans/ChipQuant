@@ -68,3 +68,20 @@ seat = re.compile(
 2. Tests catch hidden assumptions → the “51 vs 50” test revealed edge cases in block splitting.  
 3. Iterative refinement works → fail → inspect → tweak → retest.  
 4. Validation prevents silent data loss → without tests, bugs would have caused dropped or misparsed hands.  
+
+
+# Bug Log
+
+## [2025-09-25] Actions Constraint Failures
+- **Issue:** Inserting into `actions` table failed with:
+
+Rows had `"calls"` instead of `"call"` and missing `amount`.
+- **Cause:** Old parsed data in `staging_hands` was created before the parser normalized action names or extracted amounts.
+- **Fix:**
+- Added normalization in ETL (`transform.py`) to map plural → singular (`"calls"` → `"call"`, `"bets"` → `"bet"`, etc.).
+- Added amount coercion logic: if `amount` missing, parse from legacy `details` field or default to `0.0` for non-betting actions.
+- Cleared out stale `success` rows in `staging_hands` and re-ran the parse pipeline.
+- **Lesson Learned:** Whenever the parsing logic changes, staging must be cleaned/reprocessed to prevent schema mismatches in ETL.
+
+---
+
