@@ -7,7 +7,11 @@
     <h1>QuantChip</h1>
     {% block content %}
         <h2>Analytics Dashboard</h2>
-        <p>Your graphs and statistics will appear here.</p>
+        {% if not session.get('user_id') %}
+        <p>Login to Track Your Analytics</p>
+        {% endif %}
+        
+
 
         <!-- Example graph placeholders -->
         <div style="margin-top:2rem;">

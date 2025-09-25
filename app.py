@@ -4,6 +4,7 @@ from db import create_client
 from supabase import create_client, Client
 from werkzeug.security import check_password_hash, generate_password_hash
 import os
+from pipeline import run_pipeline
 
 app = Flask(__name__)
 
@@ -16,17 +17,43 @@ supabase = create_client(url, key)
 
 
 @app.route("/", methods=["GET", "POST"])
-def upload():
-    if "user_id" not in session:
+def index():
+    if not session.get("user_id"):
         return redirect(url_for("login"))
+    
+    text_data = None
 
-    # normal upload logic...
+    if request.method == "POST":
+        action = request.form.get("action")
+
+        if action == "file":
+            file = request.files.get("file_input")
+            if file:
+                text_data = file.read().decode("utf-8")
+
+        elif action == "paste":
+            text_data = request.form.get("paste_input")
+
+        if text_data:
+            run_pipeline(text_data, session.get("user_id"))
+
     return render_template("index.html")
 
 
-@app.route("/analytics", methods=["GET","POST"])
+@app.route("/analytics", methods=["POST"])
 def analytics():
-    return render_template("analytics.html")
+    action = request.form.get("action")
+
+    if action == "file":
+        file = request.files.get("file_input")
+        if file:
+            data = file.read().decode("utf-8")
+            # process uploaded file here
+    elif action == "paste":
+        data = request.form.get("paste_input")
+        # process pasted text here
+
+    return render_template("analytics.html", data_preview=data[:200])
 
 @app.route("/profile")
 def profile():
