@@ -3,13 +3,13 @@
 {% block title %}Upload | QuantChip{% endblock %}
 
 {% block content %}
-  <div class="container">
+<div class="container">
   <p>Upload your PokerStars hand history to begin.</p>
 
-  <form id="uploadForm" action="/analytics" method="post" enctype="multipart/form-data">
+  <form action="/" method="post" enctype="multipart/form-data">
     <!-- File upload -->
     <label class="upload-box">
-      <input type="file" name="file_input" accept=".txt,.csv,.log" hidden>
+      <input type="file" name="file_input" accept=".txt,.csv,.log">
       <span>Click to upload a file</span>
     </label>
     <button type="submit" name="action" value="file">Submit File</button>
@@ -21,6 +21,4 @@
     </div>
   </form>
 </div>
-
-
 {% endblock %}

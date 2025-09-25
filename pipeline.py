@@ -3,7 +3,7 @@ from staging import insert_into_staging
 from transform import staging_to_clean
 from utils import make_json_safe
 
-def run_pipeline(file_path, session_notes=None):
+def run_pipeline(file_path, user_id, session_notes=None):
     # 1. Parse raw file into blocks
     blocks = parse_file_to_staging_blocks(file_path)
 
@@ -21,7 +21,7 @@ def run_pipeline(file_path, session_notes=None):
         )
 
     # 3. Move successful staging rows → clean schema
-    staging_to_clean(session_notes=session_notes)
+    staging_to_clean(user_id, session_notes=session_notes)
 
     print("✅ Pipeline complete: raw → staging → clean")
 

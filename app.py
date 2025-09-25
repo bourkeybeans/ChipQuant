@@ -1,10 +1,13 @@
 from flask import Flask, render_template, request, redirect, url_for, session
-from flask import session
+from flask import session, jsonify
 from db import create_client
 from supabase import create_client, Client
 from werkzeug.security import check_password_hash, generate_password_hash
 import os
+import tempfile
 from pipeline import run_pipeline
+import threading
+
 
 app = Flask(__name__)
 
@@ -15,45 +18,51 @@ app.secret_key = "dev123"
 
 supabase = create_client(url, key)
 
+jobs = {}
+
+def run_in_background(file_path, user_id):
+    run_pipeline(file_path, user_id)
+    jobs[user_id] = "done"
+
 
 @app.route("/", methods=["GET", "POST"])
-def index():
-    if not session.get("user_id"):
-        return redirect(url_for("login"))
-    
-    text_data = None
-
+def upload():
     if request.method == "POST":
         action = request.form.get("action")
+        text_data = None
 
         if action == "file":
             file = request.files.get("file_input")
-            if file:
-                text_data = file.read().decode("utf-8")
+            if file and file.filename:
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".txt") as tmp:
+                    file.save(tmp.name)
+                    jobs[session["user_id"]] = "processing"
+                    threading.Thread(target=run_in_background, args=(tmp.name, session["user_id"])).start()
+                return redirect(url_for("processing"))
 
         elif action == "paste":
             text_data = request.form.get("paste_input")
+            if text_data:
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".txt", mode="w") as tmp:
+                    tmp.write(text_data)
+                    jobs[session["user_id"]] = "processing"
+                    threading.Thread(target=run_in_background, args=(tmp.name, session["user_id"])).start()
+                return redirect(url_for("processing"))
 
-        if text_data:
-            run_pipeline(text_data, session.get("user_id"))
+        return "No data received", 400
 
-    return render_template("index.html")
+    return render_template("upload.html")
+
+@app.route("/processing")
+def processing():
+    if jobs.get(session["user_id"]) == "done":
+        return redirect(url_for("analytics"))
+    return render_template("processing.html")
 
 
-@app.route("/analytics", methods=["POST"])
+@app.route("/analytics")
 def analytics():
-    action = request.form.get("action")
-
-    if action == "file":
-        file = request.files.get("file_input")
-        if file:
-            data = file.read().decode("utf-8")
-            # process uploaded file here
-    elif action == "paste":
-        data = request.form.get("paste_input")
-        # process pasted text here
-
-    return render_template("analytics.html", data_preview=data[:200])
+    return render_template("analytics.html")
 
 @app.route("/profile")
 def profile():

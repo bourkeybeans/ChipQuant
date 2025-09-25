@@ -13,10 +13,10 @@ def get_player(name: str):
     return new.data[0]["id"]
 
 
-def staging_to_clean(session_notes=None):
+def staging_to_clean(user_id, session_notes=None):
 
     #creating a session
-    session_row = {"started_at": datetime.utcnow(), "notes": session_notes or ""}
+    session_row = {"started_at": datetime.utcnow(), "notes": session_notes or "", "user_id": user_id or None}
     session_row = make_json_safe(session_row)
     session = supabase.table("sessions").insert(session_row).execute()
     session_id = session.data[0]["id"] #grab id of the created session
@@ -39,7 +39,7 @@ def staging_to_clean(session_notes=None):
             "gamemode": parsed.get("gamemode"),
             "sb": parsed.get("stakes", {}).get("sb"),
             "bb": parsed.get("stakes", {}).get("bb"),
-            "hand_datetime": parsed.get("datetime"),
+            "hand_datetime": parsed.get("datetime")
         }).execute()
 
         # 4. Insert hand_players
