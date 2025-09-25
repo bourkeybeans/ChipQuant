@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}Login | QuantChip{% endblock %}
+
+{% block content %}
+    <h2>Login</h2>
+    <br>
+    <form method="post">
+        <input type="text" name="email" class="auth-input" placeholder="Email" required>
+        <input type="password" name="password" class="auth-input" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+    <br>
+    <p class="switch">
+        Don’t have an account? <a href="{{ url_for('register') }}">Register</a>
+    </p>
+{% endblock %}

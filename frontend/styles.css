@@ -1,0 +1,109 @@
+:root {
+  --bg: #0f1117;
+  --card: #1e2230;
+  --text: #f5f6fa;
+  --muted: #8c91a5;
+  --accent: #4cafef;
+  --radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: var(--card);
+  padding: 2rem;
+  border-radius: var(--radius);
+  text-align: center;
+  width: 350px;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+}
+
+p {
+  margin-bottom: 1.5rem;
+  color: var(--muted);
+}
+
+/* Upload box */
+.upload-box {
+  display: block;
+  background: #181c28;
+  padding: 1rem;
+  border: 2px dashed var(--accent);
+  border-radius: var(--radius);
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.upload-box span {
+  color: var(--muted);
+}
+
+/* Buttons */
+button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  margin-top: 0.8rem;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Paste area */
+.paste-area {
+  margin-top: 1.5rem;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: var(--radius);
+  border: none;
+  padding: 0.8rem;
+  resize: none;
+  margin-bottom: 0.8rem;
+  background: #181c28;
+  color: var(--text);
+}
+
+/* Auth input fields (login/register) */
+.auth-input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: var(--radius);
+  border: 2px solid transparent;
+  background: #181c28;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.auth-input:focus {
+  outline: none;
+  border: 2px solid var(--accent);
+}
+
+.auth-input::placeholder {
+  color: var(--muted);
+}

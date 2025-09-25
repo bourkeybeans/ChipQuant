@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}Upload | QuantChip{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuantChip | Upload</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <p>Upload your PokerStars hand history to begin.</p>
+
+    <!-- File upload -->
+    <form id="uploadForm" action="/analytics" method="post">
+      <label class="upload-box">
+        <input type="file" id="fileInput" accept=".txt,.csv,.log" hidden>
+        <span>Click to upload a file</span>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Paste box -->
+    <div class="paste-area">
+      <textarea id="pasteInput" placeholder="Or paste PokerStars data here..."></textarea>
+      <button id="pasteSubmit">Submit</button>
+    </div>
+  </div>
+
+{% endblock %}

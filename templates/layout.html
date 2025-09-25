@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}QuantChip{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Navigation at top -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="{{ url_for('upload') }}" class="nav-link">Upload</a></li>
+            <li><a href="{{ url_for('analytics') }}" class="nav-link">Analytics</a></li>
+            <li><a href="{{ url_for('profile') }}" class="nav-link">Profile</a></li>
+            <li><a href="{{ url_for('login') }}" class="nav-link">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        {% block content_wrapper %}
+    <div class="container">
+        <h1>QuantChip</h1>
+        {% block content %}{% endblock %}
+    </div>
+    {% endblock %}
+</div>
+
+</body>
+</html>

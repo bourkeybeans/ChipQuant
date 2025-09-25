@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}Analytics | QuantChip{% endblock %}
+
+{% block content_wrapper %}
+<div class="container-wide">
+    <h1>QuantChip</h1>
+    {% block content %}
+        <h2>Analytics Dashboard</h2>
+        <p>Your graphs and statistics will appear here.</p>
+
+        <!-- Example graph placeholders -->
+        <div style="margin-top:2rem;">
+            <div style="background:#181c28; border-radius:var(--radius); height:300px; margin-bottom:2rem;">
+                <p style="padding:1rem; color:var(--muted);">[ Graph 1 Placeholder ]</p>
+            </div>
+            <div style="background:#181c28; border-radius:var(--radius); height:300px;">
+                <p style="padding:1rem; color:var(--muted);">[ Graph 2 Placeholder ]</p>
+            </div>
+        </div>
+    {% endblock %}
+</div>
+{% endblock %}
