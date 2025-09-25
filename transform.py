@@ -14,17 +14,29 @@ def get_player(name: str):
 
 
 def staging_to_clean(user_id, session_notes=None):
-    session_row = {"started_at": datetime.utcnow(), "notes": session_notes or "", "user_id": user_id}
+    # 1. Create session
+    session_row = {
+        "started_at": datetime.utcnow(),
+        "notes": session_notes or "",
+        "user_id": user_id,
+    }
     session_row = make_json_safe(session_row)
     session = supabase.table("sessions").insert(session_row).execute()
     session_id = session.data[0]["id"]
 
-    successful_parse = supabase.table("staging_hands").select("id, parsed").eq("status", "success").execute()
+    # 2. Fetch all successful parsed hands
+    successful_parse = (
+        supabase.table("staging_hands")
+        .select("id, parsed")
+        .eq("status", "success")
+        .execute()
+    )
 
+    # Collect rows
     all_hands = []
     all_players = []
     all_actions = []
-    player_cache = {}
+    all_names = set()
 
     for record in successful_parse.data:
         parsed = record["parsed"] or {}
@@ -40,33 +52,54 @@ def staging_to_clean(user_id, session_notes=None):
             "gamemode": parsed.get("gamemode"),
             "sb": parsed.get("stakes", {}).get("sb"),
             "bb": parsed.get("stakes", {}).get("bb"),
-            "hand_datetime": parsed.get("datetime")
+            "hand_datetime": parsed.get("datetime"),
         })
 
-        # players
+        # collect player rows
         for p in parsed.get("players", []):
-            player_id = get_player(p["name"])  # cached version
+            all_names.add(p["name"])
             all_players.append({
                 "hand_id": hand_id,
-                "player_id": player_id,
+                "player_name": p["name"],  # temporarily use name, will swap to id later
                 "seat": p.get("seat"),
                 "stack_start": p.get("stack_start"),
                 "result": p.get("result"),
                 "cards": p.get("cards"),
             })
 
-        # actions
+        # collect action rows
         for a in parsed.get("actions", []):
-            player_id = get_player(a["player"])
+            all_names.add(a["player"])
             all_actions.append({
                 "hand_id": hand_id,
-                "player_id": player_id,
+                "player_name": a["player"],  # temporarily use name
                 "street": a.get("street"),
                 "action": a.get("action"),
                 "amount": a.get("amount"),
             })
 
-    # bulk insert
+    # 3. Bulk resolve player IDs
+    existing = (
+        supabase.table("poker_players")
+        .select("id, name")
+        .in_("name", list(all_names))
+        .execute()
+    )
+    name_to_id = {row["name"]: row["id"] for row in existing.data}
+
+    missing = [{"name": n} for n in all_names if n not in name_to_id]
+    if missing:
+        inserted = supabase.table("poker_players").insert(missing).execute()
+        for row in inserted.data:
+            name_to_id[row["name"]] = row["id"]
+
+    # Swap player_name → player_id
+    for p in all_players:
+        p["player_id"] = name_to_id[p.pop("player_name")]
+    for a in all_actions:
+        a["player_id"] = name_to_id[a.pop("player_name")]
+
+    # 4. Bulk insert hands, players, actions
     if all_hands:
         supabase.table("hands").upsert(all_hands).execute()
     if all_players:
@@ -74,4 +107,4 @@ def staging_to_clean(user_id, session_notes=None):
     if all_actions:
         supabase.table("actions").insert(all_actions).execute()
 
-    print(f"✅ Moved {len(successful_parse.data)} hands into session {session_id}")
+    print(f"✅ Moved {len(all_hands)} hands into session {session_id}")
