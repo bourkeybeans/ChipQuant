@@ -1,19 +1,30 @@
 from parse import parse_file_to_staging_blocks, parse_hand
 from staging import insert_into_staging
+from transform import staging_to_clean
 from utils import make_json_safe
 
-def run_pipeline(file_path="raw/hands.txt"):
-    raw_blocks = parse_file_to_staging_blocks(file_path)
+def run_pipeline(file_path, session_notes=None):
+    # 1. Parse raw file into blocks
+    blocks = parse_file_to_staging_blocks(file_path)
 
-    for raw_text in raw_blocks:
-            parsed, errs = parse_hand(raw_text)
-            parsed = make_json_safe(parsed)
-            if errs:
-                insert_into_staging(raw_text, parsed, status="failed")
-            else:
-                insert_into_staging(raw_text, parsed, status="success")
+    # 2. Insert into staging
+    for raw_text in blocks:
+        parsed, errs = parse_hand(raw_text)
+        parsed = make_json_safe(parsed)
 
-    print("✅ Ingestion finished. Data now in staging_hands.")
+        status = "failed" if errs else "success"
+        insert_into_staging(
+            raw_text=raw_text,
+            parsed=parsed,
+            status=status,
+            errors=errs
+        )
+
+    # 3. Move successful staging rows → clean schema
+    staging_to_clean(session_notes=session_notes)
+
+    print("✅ Pipeline complete: raw → staging → clean")
+
 
 if __name__ == "__main__":
-    run_pipeline()
+    run_pipeline("hands.txt")

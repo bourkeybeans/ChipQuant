@@ -102,3 +102,52 @@ We introduced a staging table (`staging_hands`) where every raw hand block and i
 - **Flexibility**: staging data can later be re-processed or pulled into ML pipelines without polluting production tables.
 
 This mirrors real-world ETL pipelines and adds robustness for debugging and future analytics.
+
+
+✅ What you’ve built
+
+Raw ingestion
+
+Parse PokerStars hand histories into structured dicts.
+
+Store both raw + parsed into staging_hands.
+
+Validation
+
+Errors logged in staging (good vs bad parses).
+
+Status field (success / failed).
+
+Transform → Clean schema
+
+Create new session per parse.
+
+Load hands, players, actions into normalized tables.
+
+Keep staging intact for debugging & ML later.
+
+Idempotency
+
+Using upsert avoids duplicate hand errors.
+
+Pipeline can be rerun safely.
+
+⚡ Why it’s a real pipeline
+
+Extract → raw .txt → Python parser.
+
+Transform → parsed dicts → JSON safe → normalized DB.
+
+Load → Supabase staging + clean schema.
+
+That’s literally ETL. It’s the same pattern used at big hedge funds & data teams (just scaled up with Kafka/Spark/Airflow).
+
+🚀 What’s next (beyond the pipeline)
+
+Now you can layer on:
+
+Analytics: Queries for VPIP, PFR, Aggression, Winrate.
+
+Dashboard: Flask/Streamlit/React page to visualize sessions.
+
+Leak detection: Rule-based (and later ML).

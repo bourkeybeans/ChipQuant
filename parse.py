@@ -99,15 +99,9 @@ def parse_hand(raw_text: str):
                         p["result"] += amount
 
             #Action Collection
-            m = action.match(line)
-            if m:
-                name, act, details = m.group(1).strip(), m.group(2), m.group(3).strip()
-                hand["actions"].append({
-                    "street": current_street,
-                    "player": name,
-                    "action": act,
-                    "details": details
-                })
+            # Action Collection
+            if insert_action(hand, current_street, line):
+                continue
 
     except Exception as e:
         log_error(errors, "parse_hand", line, e)
@@ -118,3 +112,90 @@ def parse_hand(raw_text: str):
 blocks = parse_file_to_staging_blocks("hands.txt")
 parsed, errs = parse_hand(blocks[0])
 print(parsed)
+
+def insert_action(hand, street, line):
+    """
+    Try to parse a single action line and append to hand["actions"].
+    Returns True if matched, False otherwise.
+    """
+    # Regexes
+    post_blind = re.compile(r"^(.+): posts (small blind|big blind|ante) \$(\d+\.?\d*)$")
+    call = re.compile(r"^(.+): calls \$(\d+\.?\d*)$")
+    bet = re.compile(r"^(.+): bets \$(\d+\.?\d*)$")
+    raise_re = re.compile(r"^(.+): raises \$(\d+\.?\d*) to \$(\d+\.?\d*)$")
+    check = re.compile(r"^(.+): checks$")
+    fold = re.compile(r"^(.+): folds$")
+
+    # Posts
+    m = post_blind.match(line)
+    if m:
+        name, blind_type, amount = m.group(1), m.group(2), float(m.group(3))
+        hand["actions"].append({
+            "street": street,
+            "player": name,
+            "action": f"post_{blind_type.replace(' ', '_')}",
+            "amount": amount
+        })
+        return True
+
+    # Calls
+    m = call.match(line)
+    if m:
+        name, amount = m.group(1), float(m.group(2))
+        hand["actions"].append({
+            "street": street,
+            "player": name,
+            "action": "call",
+            "amount": amount
+        })
+        return True
+
+    # Bets
+    m = bet.match(line)
+    if m:
+        name, amount = m.group(1), float(m.group(2))
+        hand["actions"].append({
+            "street": street,
+            "player": name,
+            "action": "bet",
+            "amount": amount
+        })
+        return True
+
+    # Raises
+    m = raise_re.match(line)
+    if m:
+        name, inc, total = m.group(1), float(m.group(2)), float(m.group(3))
+        hand["actions"].append({
+            "street": street,
+            "player": name,
+            "action": "raise",
+            "amount": total
+        })
+        return True
+
+    # Checks
+    m = check.match(line)
+    if m:
+        name = m.group(1)
+        hand["actions"].append({
+            "street": street,
+            "player": name,
+            "action": "check",
+            "amount": 0.0
+        })
+        return True
+
+    # Folds
+    m = fold.match(line)
+    if m:
+        name = m.group(1)
+        hand["actions"].append({
+            "street": street,
+            "player": name,
+            "action": "fold",
+            "amount": 0.0
+        })
+        return True
+
+    return False
