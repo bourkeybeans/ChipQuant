@@ -162,3 +162,19 @@ textarea {
   max-width: 1200px; /* wider than normal container */
   margin: 0 auto;
 }
+
+.qc-nav { border-bottom: 1px solid #eaeaea; }
+.qc-menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;           /* keeps spacing consistent regardless of auth state */
+  list-style: none;
+  margin: 0;
+  padding: 10px 16px;
+}
+.qc-menu .spacer { margin-left: auto; }   /* pushes auth links to the right */
+.qc-menu a {
+  text-decoration: none;
+  color: inherit;
+}
+.qc-menu .brand a { font-weight: 600; }

@@ -7,17 +7,28 @@
 </head>
 <body>
     <!-- Navigation at top -->
-    <nav class="navbar">
-        <ul>
-            <li><a href="{{ url_for('upload') }}" class="nav-link">Upload</a></li>
-            <li><a href="{{ url_for('analytics') }}" class="nav-link">Analytics</a></li>
-            <li><a href="{{ url_for('profile') }}" class="nav-link">Profile</a></li>
-            <li><a href="{{ url_for('login') }}" class="nav-link">Login</a></li>
-        </ul>
-    </nav>
+    <header>
+  <nav class="qc-nav">
+    <ul class="qc-menu">
+      <li class="brand"><a href="{{ url_for('upload') }}">QuantChip</a></li>
+      <li><a href="{{ url_for('upload') }}">Upload</a></li>
+      <li><a href="{{ url_for('analytics') }}">Analytics</a></li>
+
+      <li class="spacer"></li>
+
+      {% if session.get('user_id') %}
+        <li><a href="{{ url_for('profile') }}">Profile</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+      {% else %}
+        <li><a href="{{ url_for('login') }}">Login</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+</header>
+
 
     <div class="main-content">
-        {% block content_wrapper %}
+    {% block content_wrapper %}
     <div class="container">
         <h1>QuantChip</h1>
         {% block content %}{% endblock %}
