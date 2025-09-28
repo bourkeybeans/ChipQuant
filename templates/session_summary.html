@@ -1,0 +1,133 @@
+{% extends "layout.html" %}
+
+{% block title %}Session {{ selected_session }} | QuantChip{% endblock %}
+
+{% block content_wrapper %}
+<div class="analytics-layout">
+  <aside class="analytics-left">
+    <h2 class="dashboard-title">Session {{ selected_session }}</h2>
+    <div class="stats-box">
+      <div class="stat">
+        <span class="stat-value">{{ overall.hands }}</span>
+        <span class="stat-label">Hands</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">
+          {% if overall.vpip is not none %}{{ overall.vpip }}%{% else %}—{% endif %}
+        </span>
+        <span class="stat-label">VPIP</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">
+          {% if overall.pfr is not none %}{{ overall.pfr }}%{% else %}—{% endif %}
+        </span>
+        <span class="stat-label">PFR</span>
+      </div>
+    </div>
+  </aside>
+
+  <section class="analytics-right">
+    {% if selected_session %}
+      <h2>Session Overview</h2>
+      <br>
+      <div class="chart-container">
+  <canvas id="bankrollChart"></canvas>
+
+  <div class="session-stats-inline">
+    <div class="stat-item">
+      <span class="stat-label">Play Time</span>
+      <span class="stat-value">{{ session_stats.play_time or "—" }}</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-label">Amount</span>
+      <span class="stat-value">£{{ session_stats.amount or "—" }}</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-label">Hourly Rate</span>
+      <span class="stat-value">£{{ session_stats.hourly_rate or "—" }}</span>
+    </div>
+  </div>
+</div>
+
+      </div>
+    {% else %}
+      <!-- Default: sessions table -->
+      <h2>All Sessions</h2>
+      <table id="sessionsTable" class="display">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Started At</th>
+            <th>Notes</th>
+            <th>Hands</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for s in sessions %}
+          <tr>
+            <td>{{ s.id }}</td>
+            <td>{{ s.started_at }}</td>
+            <td>{{ s.notes or "" }}</td>
+            <td>{{ s.hand_count }}</td>
+            <td><a href="{{ url_for('session_summary', sid=s.id) }}">Open</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endif %}
+  </section>
+</div>
+
+{% if not selected_session %}
+<script>
+  $(document).ready(function() {
+    $('#sessionsTable').DataTable({
+      pageLength: 10,
+      order: [[1, "desc"]]
+    });
+  });
+</script>
+{% endif %}
+
+{% if selected_session %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div class="chart-container">
+  <canvas id="bankrollChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const bankrollData = {{ bankroll_data | tojson | safe }};
+  const labels = bankrollData.map(d => "Hand " + d.hand_no);
+  const values = bankrollData.map(d => d.bankroll);
+
+  const ctx = document.getElementById("bankrollChart").getContext("2d");
+  new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: labels,
+      datasets: [{
+        label: "Running Bankroll",
+        data: values,
+        borderColor: "rgba(75, 192, 192, 1)",
+        backgroundColor: "rgba(75, 192, 192, 0.2)",
+        tension: 0.25,
+        fill: true,
+        pointRadius: 3
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { title: { display: true, text: "Hand Number" } },
+        y: { title: { display: true, text: "Bankroll" } }
+      }
+    }
+  });
+</script>
+
+{% endif %}
+{% endblock %}

@@ -4,11 +4,11 @@
 
 {% block content %}
 <div class="container">
+  <h2>Upload Data</h2>
+
   <p>Upload your PokerStars hand history to begin.</p>
 
   <form action="/" method="post" enctype="multipart/form-data">
-    <input type="text" name="hero_name" class="auth-input" placeholder="Enter Your PokerStars Username" required>
-
     <!-- File upload -->
     <label class="upload-box">
       <input type="file" name="file_input" accept=".txt,.csv,.log">

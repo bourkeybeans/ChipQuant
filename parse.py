@@ -8,7 +8,9 @@ RE_HEADER = re.compile(
 )
 RE_SEAT = re.compile(r"^Seat (\d+): ([^(]+) \(\$(\d+(?:\.\d+)?) in chips\)$")
 RE_DEALT = re.compile(r"^Dealt to (.+) \[([2-9TJQKA][cdhs]) ([2-9TJQKA][cdhs])\]$")
-RE_COLLECT = re.compile(r"^(.+) collected \$(\d+\.\d+) from pot$")
+RE_COLLECT = re.compile(
+    r"^(.+?) collected \(\$(\d+\.\d+)\) from (?:pot|side pot(?:-\d+)?)$"
+)
 
 RE_POST_BLIND = re.compile(r"^(.+): posts (small blind|big blind|ante) \$(\d+\.?\d*)$")
 RE_CALL = re.compile(r"^(.+): calls \$(\d+\.?\d*)$")

@@ -1,27 +1,89 @@
 {% extends "layout.html" %}
-
 {% block title %}Analytics | QuantChip{% endblock %}
 
 {% block content_wrapper %}
-<div class="container-wide">
-    <h1>QuantChip</h1>
-    {% block content %}
-        <h2>Analytics Dashboard</h2>
-        {% if not session.get('user_id') %}
-        <p>Login to Track Your Analytics</p>
-        {% endif %}
-        
-
-
-        <!-- Example graph placeholders -->
-        <div style="margin-top:2rem;">
-            <div style="background:#181c28; border-radius:var(--radius); height:300px; margin-bottom:2rem;">
-                <p style="padding:1rem; color:var(--muted);">[ Graph 1 Placeholder ]</p>
-            </div>
-            <div style="background:#181c28; border-radius:var(--radius); height:300px;">
-                <p style="padding:1rem; color:var(--muted);">[ Graph 2 Placeholder ]</p>
-            </div>
-        </div>
-    {% endblock %}
+<div class="analytics-layout">
+  
+  <!-- Left column -->
+ <aside class="analytics-left">
+  <h2 class="dashboard-title">Analytics Dashboard</h2>
+  <div class="stats-box">
+    <h3>Overall Stats</h3>
+    <div class="stat">
+      <span class="stat-value">{{ overall.sessions | default(0) }}</span>
+      <span class="stat-label">Sessions</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">{{ overall.hands | default(0) }}</span>
+      <span class="stat-label">Hands</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">
+        {% if overall.vpip is not none %}{{ overall.vpip }}%{% else %}—{% endif %}
+      </span>
+      <span class="stat-label">VPIP</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">{% if overall.pfr is not none %}{{ overall.pfr }}%{% else %}—{% endif %}</span>
+      <span class="stat-label">PFR %</span>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="stats-box">
+  <h3>Player Income</h3>
+  <div class="stat">
+    <span class="stat-label">Play Time</span>
+    <span class="stat-value">{{ user_stats.play_time or "—" }}</span>
+  </div>
+  <div class="stat">
+    <span class="stat-label">Amount</span>
+    <span class="stat-value">£{{ user_stats.amount or "—" }}</span>
+  </div>
+  <div class="stat">
+    <span class="stat-label">Hourly Rate</span>
+    <span class="stat-value">£{{ user_stats.hourly_rate or "—" }}</span>
+  </div>
 </div>
+
+</aside>
+
+
+  <section class="analytics-right">
+    <h2>Sessions</h2>
+    <br>
+    <table id="sessionsTable" class="display">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Started At</th>
+          <th>Notes</th>
+          <th>Hands</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for s in sessions %}
+        <tr>
+          <td>{{ s.id }}</td>
+          <td>{{ s.started_at }}</td>
+          <td>{{ s.notes or "" }}</td>
+          <td>{{ s.hand_count }}</td>
+          <td><a href="{{ url_for('session_summary', sid=s.id) }}">Open</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+</div>
+
+<script>
+  $(document).ready(function() {
+    $('#sessionsTable').DataTable({
+      pageLength: 10,
+      order: [[1, "desc"]]
+    });
+  });
+</script>
 {% endblock %}

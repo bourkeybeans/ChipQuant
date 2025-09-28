@@ -5,10 +5,25 @@
 {% block content %}
 
 <div class="container-wide">
-    <h1>Profile Dashboard</h1>
-        <h2>Profile Dashboard</h2>
+    <h2>{{ user.username }}</h1>
+        <br>
+        <br>
+        <h2 >Link Profile</h2>
         {% if not session.get('user_id') %}
         <p>Login to See Your Profile</p>
+        {% endif %}
+
+        {% if hero_name %}
+        <p>✅ Linked to <strong>{{ hero_name }}</strong></p>
+        <form method="post">
+            <button type="submit" name="unlink">Unlink</button>
+        </form>
+        {% else %}
+        <form method="post">
+            <label for="hero_name">Link your PokerStars name:</label>
+            <input type="text" name="hero_name" required>
+            <button type="submit">Link</button>
+        </form> 
         {% endif %}
 </div>
 
