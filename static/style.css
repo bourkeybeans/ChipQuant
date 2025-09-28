@@ -1,7 +1,6 @@
 /* Import Inter font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-/* CSS variables */
 :root {
   --bg: #0f1117;
   --card: #1e2230;
@@ -13,7 +12,6 @@
   --container-pad: 1rem;
 }
 
-/* Base reset */
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +33,6 @@ img, svg, video, canvas { max-width: 100%; height: auto; display: block; }
 input, button, textarea, select { font: inherit; }
 a { color: inherit; }
 
-/* Navbar */
 .navbar {
   width: 100%;
   background: #181c28;
@@ -52,7 +49,6 @@ a { color: inherit; }
 }
 
 .nav-link {
-  color: var(--muted);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
@@ -62,7 +58,6 @@ a { color: inherit; }
   color: var(--accent);
 }
 
-/* Main wrapper */
 .main-content {
   flex: 1;
   display: flex;
@@ -71,7 +66,6 @@ a { color: inherit; }
   padding: 1rem;
 }
 
-/* Card container */
 .container {
   background: var(--card);
   padding: var(--container-pad);
@@ -93,7 +87,6 @@ p {
   color: var(--muted);
 }
 
-/* Upload box */
 .upload-box {
   display: block;
   background: #181c28;
@@ -108,7 +101,6 @@ p {
   color: var(--muted);
 }
 
-/* Buttons */
 button {
   background: var(--accent);
   color: #fff;
@@ -126,7 +118,6 @@ button:hover {
  
 button:hover { box-shadow: 0 6px 18px rgba(76,175,239,.25); }
 
-/* Paste area */
 .paste-area {
   margin-top: 1.5rem;
 }
@@ -144,7 +135,6 @@ textarea {
 }
 textarea:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-/* Auth input fields (login/register) */
 .auth-input {
   width: 100%;
   padding: 0.8rem;
@@ -171,7 +161,7 @@ textarea:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
   border-radius: var(--radius);
   text-align: center;
   width: 100%;
-  max-width: 1200px; /* wider than normal container */
+  max-width: 1200px;
   margin: 0 auto;
   box-shadow: var(--shadow);
 }
@@ -180,12 +170,12 @@ textarea:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
 .qc-menu {
   display: flex;
   align-items: center;
-  gap: 16px;           /* keeps spacing consistent regardless of auth state */
+  gap: 16px;          
   list-style: none;
   margin: 0;
   padding: 10px 16px;
 }
-.qc-menu .spacer { margin-left: auto; }   /* pushes auth links to the right */
+.qc-menu .spacer { margin-left: auto; } 
 .qc-menu a {
   text-decoration: none;
   color: inherit;
@@ -198,7 +188,6 @@ textarea:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
   .qc-menu .spacer { flex-basis: 100%; height: 0; margin: 0; }
 }
 
-/* Buttons: enhance focus for accessibility */
 button {
   transition: transform .08s ease, box-shadow .2s ease, opacity .2s ease;
 }

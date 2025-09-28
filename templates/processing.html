@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}Processing...{% endblock %}
+
+{% block content %}
+<div class="processing">
+  <p>Processing your hand history... please wait.</p>
+  <div class="spinner"></div>
+</div>
+
+<meta http-equiv="refresh" content="4;url={{ url_for('analytics') }}">
+
+<style>
+.processing {
+  text-align: center;
+  padding: 40px;
+}
+.spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 20px auto;
+  animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+{% endblock %}

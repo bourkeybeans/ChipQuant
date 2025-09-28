@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}Profile | QuantChip{% endblock %}
+
+{% block content %}
+
+<div class="container-wide">
+    <h1>Profile Dashboard</h1>
+        <h2>Profile Dashboard</h2>
+        {% if not session.get('user_id') %}
+        <p>Login to See Your Profile</p>
+        {% endif %}
+</div>
+
+
+{% endblock %}

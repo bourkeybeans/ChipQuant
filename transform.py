@@ -1,6 +1,8 @@
 from datetime import datetime
 from db import supabase
 from utils import make_json_safe
+from collections import Counter
+
 
 
 def get_player(name: str):
@@ -14,17 +16,17 @@ def get_player(name: str):
 
 
 def staging_to_clean(user_id, session_notes=None):
-    # 1. Create session
     session_row = {
         "started_at": datetime.utcnow(),
         "notes": session_notes or "",
         "user_id": user_id,
     }
-    session_row = make_json_safe(session_row)
-    session = supabase.table("sessions").insert(session_row).execute()
-    session_id = session.data[0]["id"]
+    session_row = make_json_safe(session_row) #prevent datetime from bugging
+    session = supabase.table("sessions").insert(session_row).execute() # insert new session
+    session_id = session.data[0]["id"] # fetch the unique session id
 
-    # 2. Fetch all successful parsed hands
+    # fetch all succesfully parsed from staging table
+
     successful_parse = (
         supabase.table("staging_hands")
         .select("id, parsed")
@@ -32,21 +34,22 @@ def staging_to_clean(user_id, session_notes=None):
         .execute()
     )
 
-    # Collect rows
+    # collect all data into main memory first
     all_hands = []
     all_players = []
     all_actions = []
     all_names = set()
 
+    # for every block that is succesfully parsed
+
     for record in successful_parse.data:
-        parsed = record["parsed"] or {}
-        if not parsed or not parsed.get("datetime"):
+        parsed = record["parsed"] or {}  #if parsed exists
+        if not parsed:
             continue
 
         hand_id = parsed["id"]
 
-        # hands
-        all_hands.append({
+        all_hands.append({ #appending hand information
             "id": hand_id,
             "session_id": session_id,
             "gamemode": parsed.get("gamemode"),
@@ -55,51 +58,51 @@ def staging_to_clean(user_id, session_notes=None):
             "hand_datetime": parsed.get("datetime"),
         })
 
-        # collect player rows
         for p in parsed.get("players", []):
-            all_names.add(p["name"])
+            all_names.add(p["name"]) #add each new plauer to all names
             all_players.append({
                 "hand_id": hand_id,
-                "player_name": p["name"],  # temporarily use name, will swap to id later
+                "player_name": p["name"],
                 "seat": p.get("seat"),
                 "stack_start": p.get("stack_start"),
                 "result": p.get("result"),
                 "cards": p.get("cards"),
             })
 
-        # collect action rows
+        action_counter = 1  
         for a in parsed.get("actions", []):
             all_names.add(a["player"])
             all_actions.append({
                 "hand_id": hand_id,
-                "player_name": a["player"],  # temporarily use name
+                "player_name": a["player"],
                 "street": a.get("street"),
                 "action": a.get("action"),
                 "amount": a.get("amount"),
+                "action_order": action_counter,
             })
+            action_counter += 1 
 
-    # 3. Bulk resolve player IDs
+    
+    #premap existing pokerplayers  to their ids, so no requerying the supabase table with getplayer
     existing = (
         supabase.table("poker_players")
         .select("id, name")
-        .in_("name", list(all_names))
+        .in_("name", list(all_names)) #where name is in all names select the id
         .execute()
     )
-    name_to_id = {row["name"]: row["id"] for row in existing.data}
+    name_to_id = {row["name"]: row["id"] for row in existing.data}  #mapping name to id where they already exist
 
     missing = [{"name": n} for n in all_names if n not in name_to_id]
     if missing:
-        inserted = supabase.table("poker_players").insert(missing).execute()
+        inserted = supabase.table("poker_players").insert(missing).execute()  #inserting missing players
         for row in inserted.data:
-            name_to_id[row["name"]] = row["id"]
+            name_to_id[row["name"]] = row["id"] #for all added platers map there name to id, so we have a dictionary of all players to ids
 
-    # Swap player_name → player_id
-    for p in all_players:
+    for p in all_players: # for each player replace the player_name with a player id
         p["player_id"] = name_to_id[p.pop("player_name")]
     for a in all_actions:
         a["player_id"] = name_to_id[a.pop("player_name")]
 
-    # 4. Bulk insert hands, players, actions
     if all_hands:
         supabase.table("hands").upsert(all_hands).execute()
     if all_players:

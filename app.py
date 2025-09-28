@@ -114,5 +114,30 @@ def logout():
     session.clear()
     return redirect(url_for("login"))
 
+
+def profile():
+    if request.method == "POST":
+        hero_name = request.form["hero_name"]
+
+        hero = (
+            supabase.table("poker_players")
+            .insert({"name": hero_name}, upsert=True)
+            .execute()
+        )
+        hero_id = hero.data[0]["id"]
+
+        supabase.table("users").update({"hero_player_id": hero_id}).eq("id", session["user_id"]).execute()
+
+        return redirect(url_for("profile"))
+
+    user = (
+        supabase.table("users")
+        .select("username, hero_player_id")
+        .eq("id", session["user_id"])
+        .execute()
+    ).data[0]
+
+    return render_template("profile.html", user=user)
+
 if __name__ == "__main__":
     app.run(debug=True)

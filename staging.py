@@ -1,6 +1,6 @@
 from db import supabase
 
-# Insert a parsed or raw hand into staging
+#inset data into staging table
 def insert_into_staging(raw_text, parsed=None, status="pending", errors=None):
     data = {
         "raw_text": raw_text,
@@ -11,20 +11,11 @@ def insert_into_staging(raw_text, parsed=None, status="pending", errors=None):
     return supabase.table("staging_hands").insert(data).execute()
 
 
-# Fetch all staging records (useful for debugging)
+# fetching staging records
 def fetch_all_staging():
     return supabase.table("staging_hands").select("*").execute()
 
 
-# Fetch only failed parses
+# fetching failed blocks
 def fetch_failed():
     return supabase.table("staging_hands").select("*").eq("status", "failed").execute()
-
-
-# Mark a staging record as reprocessed
-def update_status(record_id, status, parsed=None, errors=None):
-    return supabase.table("staging_hands").update({
-        "status": status,
-        "parsed": parsed or {},
-        "errors": errors or []
-    }).eq("id", record_id).execute()
