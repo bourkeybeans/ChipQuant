@@ -4,13 +4,11 @@ from utils import make_json_safe
 from collections import Counter
 
 
-
 def get_player(name: str):
-    
     existing = supabase.table("poker_players").select("id").eq("name", name).execute()
     if existing.data:
         return existing.data[0]["id"]
-    
+
     new = supabase.table("poker_players").insert({"name": name}).execute()
     return new.data[0]["id"]
 
@@ -21,11 +19,9 @@ def staging_to_clean(user_id, session_notes=None):
         "notes": session_notes or "",
         "user_id": user_id,
     }
-    session_row = make_json_safe(session_row) #prevent datetime from bugging
-    session = supabase.table("sessions").insert(session_row).execute() # insert new session
-    session_id = session.data[0]["id"] # fetch the unique session id
-
-    # fetch all succesfully parsed from staging table
+    session_row = make_json_safe(session_row)
+    session = supabase.table("sessions").insert(session_row).execute()
+    session_id = session.data[0]["id"]
 
     successful_parse = (
         supabase.table("staging_hands")
@@ -34,42 +30,45 @@ def staging_to_clean(user_id, session_notes=None):
         .execute()
     )
 
-    # collect all data into main memory first
     all_hands = []
     all_players = []
     all_actions = []
     all_names = set()
 
-    # for every block that is succesfully parsed
-
     for record in successful_parse.data:
-        parsed = record["parsed"] or {}  #if parsed exists
+        parsed = record["parsed"] or {}
         if not parsed:
             continue
 
         hand_id = parsed["id"]
 
-        all_hands.append({ #appending hand information
+        all_hands.append({
             "id": hand_id,
             "session_id": session_id,
             "gamemode": parsed.get("gamemode"),
-            "sb": parsed.get("stakes", {}).get("sb"),
-            "bb": parsed.get("stakes", {}).get("bb"),
+            "sb": round(parsed.get("stakes", {}).get("sb", 0), 2),
+            "bb": round(parsed.get("stakes", {}).get("bb", 0), 2),
             "hand_datetime": parsed.get("datetime"),
         })
 
+        contribs = parsed.get("contributions", {})
         for p in parsed.get("players", []):
-            all_names.add(p["name"]) #add each new plauer to all names
+            name = p["name"]
+            put_in = round(contribs.get(name, 0.0), 2)
+            won = round(p.get("result", 0.0), 2)
+            net = round(won - put_in, 2)
+
+            all_names.add(name)
             all_players.append({
                 "hand_id": hand_id,
-                "player_name": p["name"],
+                "player_name": name,
                 "seat": p.get("seat"),
-                "stack_start": p.get("stack_start"),
-                "result": p.get("result"),
+                "stack_start": round(p.get("stack_start", 0.0), 2),
+                "result": net,
                 "cards": p.get("cards"),
             })
 
-        action_counter = 1  
+        action_counter = 1
         for a in parsed.get("actions", []):
             all_names.add(a["player"])
             all_actions.append({
@@ -77,28 +76,26 @@ def staging_to_clean(user_id, session_notes=None):
                 "player_name": a["player"],
                 "street": a.get("street"),
                 "action": a.get("action"),
-                "amount": a.get("amount"),
+                "amount": round(a.get("amount", 0.0), 2),
                 "action_order": action_counter,
             })
-            action_counter += 1 
+            action_counter += 1
 
-    
-    #premap existing pokerplayers  to their ids, so no requerying the supabase table with getplayer
     existing = (
         supabase.table("poker_players")
         .select("id, name")
-        .in_("name", list(all_names)) #where name is in all names select the id
+        .in_("name", list(all_names))
         .execute()
     )
-    name_to_id = {row["name"]: row["id"] for row in existing.data}  #mapping name to id where they already exist
+    name_to_id = {row["name"]: row["id"] for row in existing.data}
 
     missing = [{"name": n} for n in all_names if n not in name_to_id]
     if missing:
-        inserted = supabase.table("poker_players").insert(missing).execute()  #inserting missing players
+        inserted = supabase.table("poker_players").insert(missing).execute()
         for row in inserted.data:
-            name_to_id[row["name"]] = row["id"] #for all added platers map there name to id, so we have a dictionary of all players to ids
+            name_to_id[row["name"]] = row["id"]
 
-    for p in all_players: # for each player replace the player_name with a player id
+    for p in all_players:
         p["player_id"] = name_to_id[p.pop("player_name")]
     for a in all_actions:
         a["player_id"] = name_to_id[a.pop("player_name")]

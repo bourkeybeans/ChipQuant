@@ -34,19 +34,24 @@
   <canvas id="bankrollChart"></canvas>
 
   <div class="session-stats-inline">
-    <div class="stat-item">
-      <span class="stat-label">Play Time</span>
-      <span class="stat-value">{{ session_stats.play_time or "—" }}</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-label">Amount</span>
-      <span class="stat-value">£{{ session_stats.amount or "—" }}</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-label">Hourly Rate</span>
-      <span class="stat-value">£{{ session_stats.hourly_rate or "—" }}</span>
-    </div>
+  <div class="stat-item">
+    <span class="stat-label">Play Time</span>
+    <span class="stat-value">{{ session_stats.play_time or "—" }}</span>
   </div>
+  <div class="stat-item">
+    <span class="stat-label">Amount</span>
+    <span class="stat-value">
+      £{{ "%.2f"|format(session_stats.amount) if session_stats.amount is not none else "—" }}
+    </span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-label">Hourly Rate</span>
+    <span class="stat-value">
+      £{{ "%.2f"|format(session_stats.hourly_rate) if session_stats.hourly_rate is not none else "—" }}
+    </span>
+  </div>
+</div>
+
 </div>
 
       </div>

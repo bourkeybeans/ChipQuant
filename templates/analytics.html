@@ -33,17 +33,21 @@
   <div class="stats-box">
   <h3>Player Income</h3>
   <div class="stat">
-    <span class="stat-label">Play Time</span>
-    <span class="stat-value">{{ user_stats.play_time or "—" }}</span>
-  </div>
-  <div class="stat">
-    <span class="stat-label">Amount</span>
-    <span class="stat-value">£{{ user_stats.amount or "—" }}</span>
-  </div>
-  <div class="stat">
-    <span class="stat-label">Hourly Rate</span>
-    <span class="stat-value">£{{ user_stats.hourly_rate or "—" }}</span>
-  </div>
+  <span class="stat-label">Play Time</span>
+  <span class="stat-value">{{ user_stats.play_time or "—" }}</span>
+</div>
+<div class="stat">
+  <span class="stat-label">Amount</span>
+  <span class="stat-value">
+    £{{ "%.2f"|format(user_stats.amount) if user_stats.amount is not none else "—" }}
+  </span>
+</div>
+<div class="stat">
+  <span class="stat-label">Hourly Rate</span>
+  <span class="stat-value">
+    £{{ "%.2f"|format(user_stats.hourly_rate) if user_stats.hourly_rate is not none else "—" }}
+  </span>
+</div>
 </div>
 
 </aside>
