@@ -1,0 +1,1054 @@
+*********** # 1 **************
+PokerStars Hand #257961222566:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:22:14 ET
+Table 'Draco VI' 6-max Seat #2 is the button
+Seat 1: Rogerpaps2000 ($6.56 in chips)
+Seat 2: cherry2402 ($6.86 in chips)
+Seat 3: nofoldstars ($7.91 in chips)
+Seat 5: farquan66 ($3.94 in chips)
+Seat 6: Fugazi Nemesis ($4.38 in chips)
+nofoldstars: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Td As]
+Fugazi Nemesis: folds
+Rogerpaps2000: folds
+cherry2402: raises $0.07 to $0.12
+nofoldstars: calls $0.10
+farquan66: raises $0.24 to $0.36
+cherry2402: folds
+nofoldstars: calls $0.24
+*** FLOP *** [Tc Ks 8d]
+Junglepive joins the table at seat #4
+nofoldstars: bets $0.49
+Junglepive leaves the table
+farquan66: calls $0.49
+*** TURN *** [Tc Ks 8d] [4h]
+nofoldstars: bets $7.06 and is all-in
+farquan66: calls $3.09 and is all-in
+Uncalled bet ($3.97) returned to nofoldstars
+farquan66 has timed out
+*** RIVER *** [Tc Ks 8d 4h] [2d]
+*** SHOW DOWN ***
+nofoldstars: shows [8s Kd] (two pair, Kings and Eights)
+farquan66: shows [Td As] (a pair of Tens)
+nofoldstars collected $7.60 from pot
+*** SUMMARY ***
+Total pot $8 | Rake $0.40
+Board [Tc Ks 8d 4h 2d]
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 (button) folded before Flop
+Seat 3: nofoldstars (small blind) showed [8s Kd] and won ($7.60) with two pair, Kings and Eights
+Seat 5: farquan66 (big blind) showed [Td As] and lost with a pair of Tens
+Seat 6: Fugazi Nemesis folded before Flop (didn't bet)
+
+
+*********** # 2 **************
+PokerStars Hand #257961211197:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:21:20 ET
+Table 'Draco VI' 6-max Seat #1 is the button
+Seat 1: Rogerpaps2000 ($6.56 in chips)
+Seat 2: cherry2402 ($6.88 in chips)
+Seat 3: nofoldstars ($9.09 in chips)
+Seat 4: karapyz97 ($7.18 in chips)
+Seat 5: farquan66 ($2.86 in chips)
+Seat 6: Fugazi Nemesis ($4.38 in chips)
+cherry2402: posts small blind $0.02
+nofoldstars: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qc Ah]
+karapyz97: folds
+karapyz97 leaves the table
+farquan66: raises $0.10 to $0.15
+Fugazi Nemesis: folds
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: calls $0.10
+*** FLOP *** [9d 6h Qh]
+nofoldstars: checks
+farquan66: bets $0.15
+nofoldstars: calls $0.15
+*** TURN *** [9d 6h Qh] [7s]
+nofoldstars: checks
+farquan66: bets $0.30
+nofoldstars: calls $0.30
+*** RIVER *** [9d 6h Qh 7s] [8d]
+nofoldstars: checks
+farquan66: bets $0.58
+nofoldstars: calls $0.58
+*** SHOW DOWN ***
+farquan66: shows [Qc Ah] (a pair of Queens)
+nofoldstars: mucks hand
+farquan66 collected $2.26 from pot
+*** SUMMARY ***
+Total pot $2.38 | Rake $0.12
+Board [9d 6h Qh 7s 8d]
+Seat 1: Rogerpaps2000 (button) folded before Flop (didn't bet)
+Seat 2: cherry2402 (small blind) folded before Flop
+Seat 3: nofoldstars (big blind) mucked [Kd Qd]
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 showed [Qc Ah] and won ($2.26) with a pair of Queens
+Seat 6: Fugazi Nemesis folded before Flop (didn't bet)
+
+
+*********** # 3 **************
+PokerStars Hand #257961201522:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:20:36 ET
+Table 'Draco VI' 6-max Seat #6 is the button
+Seat 1: Rogerpaps2000 ($6.92 in chips)
+Seat 2: cherry2402 ($6.56 in chips)
+Seat 3: nofoldstars ($9.09 in chips)
+Seat 4: karapyz97 ($7.18 in chips)
+Seat 5: farquan66 ($2.86 in chips)
+Seat 6: Fugazi Nemesis ($4.38 in chips)
+Rogerpaps2000: posts small blind $0.02
+cherry2402: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [5s Qh]
+nofoldstars: folds
+karapyz97: folds
+farquan66: folds
+Fugazi Nemesis: folds
+Rogerpaps2000: raises $0.10 to $0.15
+cherry2402: calls $0.10
+*** FLOP *** [Td 7s 5d]
+Rogerpaps2000: checks
+cherry2402: checks
+*** TURN *** [Td 7s 5d] [9h]
+Rogerpaps2000: bets $0.21
+cherry2402: calls $0.21
+*** RIVER *** [Td 7s 5d 9h] [3c]
+Rogerpaps2000: checks
+cherry2402: bets $0.48
+Rogerpaps2000: folds
+Uncalled bet ($0.48) returned to cherry2402
+cherry2402 collected $0.68 from pot
+cherry2402: doesn't show hand
+*** SUMMARY ***
+Total pot $0.72 | Rake $0.04
+Board [Td 7s 5d 9h 3c]
+Seat 1: Rogerpaps2000 (small blind) folded on the River
+Seat 2: cherry2402 (big blind) collected ($0.68)
+Seat 3: nofoldstars folded before Flop (didn't bet)
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 folded before Flop (didn't bet)
+Seat 6: Fugazi Nemesis (button) folded before Flop (didn't bet)
+
+
+*********** # 4 **************
+PokerStars Hand #257961193850:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:20:00 ET
+Table 'Draco VI' 6-max Seat #5 is the button
+Seat 1: Rogerpaps2000 ($6.97 in chips)
+Seat 2: cherry2402 ($6.19 in chips)
+Seat 3: nofoldstars ($9.43 in chips)
+Seat 4: karapyz97 ($7.18 in chips)
+Seat 5: farquan66 ($2.86 in chips)
+Seat 6: Fugazi Nemesis ($4.40 in chips)
+Fugazi Nemesis: posts small blind $0.02
+Rogerpaps2000: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Js 2d]
+cherry2402: raises $0.07 to $0.12
+nofoldstars: calls $0.12
+karapyz97: folds
+farquan66: folds
+Fugazi Nemesis: folds
+Rogerpaps2000: folds
+*** FLOP *** [9s 4d Qh]
+cherry2402: bets $0.10
+nofoldstars: calls $0.10
+*** TURN *** [9s 4d Qh] [Qs]
+cherry2402: bets $0.12
+nofoldstars: calls $0.12
+*** RIVER *** [9s 4d Qh Qs] [Ts]
+cherry2402: checks
+nofoldstars: checks
+*** SHOW DOWN ***
+cherry2402: shows [Jh Th] (two pair, Queens and Tens)
+nofoldstars: mucks hand
+cherry2402 collected $0.71 from pot
+*** SUMMARY ***
+Total pot $0.75 | Rake $0.04
+Board [9s 4d Qh Qs Ts]
+Seat 1: Rogerpaps2000 (big blind) folded before Flop
+Seat 2: cherry2402 showed [Jh Th] and won ($0.71) with two pair, Queens and Tens
+Seat 3: nofoldstars mucked [9h Kd]
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 (button) folded before Flop (didn't bet)
+Seat 6: Fugazi Nemesis (small blind) folded before Flop
+
+
+*********** # 5 **************
+PokerStars Hand #257961190104:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:19:43 ET
+Table 'Draco VI' 6-max Seat #4 is the button
+Seat 1: Rogerpaps2000 ($6.97 in chips)
+Seat 2: cherry2402 ($6.19 in chips)
+Seat 3: nofoldstars ($9.36 in chips)
+Seat 4: karapyz97 ($7.18 in chips)
+Seat 5: farquan66 ($2.88 in chips)
+Seat 6: Fugazi Nemesis ($4.45 in chips)
+farquan66: posts small blind $0.02
+Fugazi Nemesis: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Js 8s]
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: raises $0.10 to $0.15
+karapyz97: folds
+farquan66: folds
+Fugazi Nemesis: folds
+Uncalled bet ($0.10) returned to nofoldstars
+nofoldstars collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 3: nofoldstars collected ($0.12)
+Seat 4: karapyz97 (button) folded before Flop (didn't bet)
+Seat 5: farquan66 (small blind) folded before Flop
+Seat 6: Fugazi Nemesis (big blind) folded before Flop
+
+
+*********** # 6 **************
+PokerStars Hand #257961187266:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:19:30 ET
+Table 'Draco VI' 6-max Seat #3 is the button
+Seat 1: Rogerpaps2000 ($6.97 in chips)
+Seat 2: cherry2402 ($6.19 in chips)
+Seat 3: nofoldstars ($9.29 in chips)
+Seat 4: karapyz97 ($7.20 in chips)
+Seat 5: farquan66 ($2.93 in chips)
+Seat 6: Fugazi Nemesis ($4.45 in chips)
+karapyz97: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [6c Ac]
+Fugazi Nemesis: folds
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: raises $0.15 to $0.20
+karapyz97: folds
+farquan66: folds
+Uncalled bet ($0.15) returned to nofoldstars
+nofoldstars collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 3: nofoldstars (button) collected ($0.12)
+Seat 4: karapyz97 (small blind) folded before Flop
+Seat 5: farquan66 (big blind) folded before Flop
+Seat 6: Fugazi Nemesis folded before Flop (didn't bet)
+
+
+*********** # 7 **************
+PokerStars Hand #257961181791:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:19:05 ET
+Table 'Draco VI' 6-max Seat #2 is the button
+Seat 1: Rogerpaps2000 ($6.97 in chips)
+Seat 2: cherry2402 ($6.19 in chips)
+Seat 3: nofoldstars ($9.11 in chips)
+Seat 4: karapyz97 ($7.25 in chips)
+Seat 5: farquan66 ($2.93 in chips)
+Seat 6: Fugazi Nemesis ($4.60 in chips)
+nofoldstars: posts small blind $0.02
+karapyz97: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qd 7c]
+farquan66: folds
+Fugazi Nemesis: raises $0.10 to $0.15
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: calls $0.13
+karapyz97: folds
+*** FLOP *** [Js 2c 4s]
+nofoldstars: bets $0.05
+Fugazi Nemesis: folds
+Uncalled bet ($0.05) returned to nofoldstars
+nofoldstars collected $0.33 from pot
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.02
+Board [Js 2c 4s]
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 (button) folded before Flop (didn't bet)
+Seat 3: nofoldstars (small blind) collected ($0.33)
+Seat 4: karapyz97 (big blind) folded before Flop
+Seat 5: farquan66 folded before Flop (didn't bet)
+Seat 6: Fugazi Nemesis folded on the Flop
+
+
+*********** # 8 **************
+PokerStars Hand #257961172366:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:18:22 ET
+Table 'Draco VI' 6-max Seat #1 is the button
+Seat 1: Rogerpaps2000 ($7.16 in chips)
+Seat 2: cherry2402 ($6.21 in chips)
+Seat 3: nofoldstars ($8.92 in chips)
+Seat 4: karapyz97 ($7.25 in chips)
+Seat 5: farquan66 ($2.93 in chips)
+Seat 6: Fugazi Nemesis ($4.60 in chips)
+cherry2402: posts small blind $0.02
+nofoldstars: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [4c Qh]
+karapyz97: folds
+farquan66: folds
+Fugazi Nemesis: folds
+Rogerpaps2000: raises $0.07 to $0.12
+cherry2402: folds
+nofoldstars: raises $0.07 to $0.19
+Rogerpaps2000: calls $0.07
+*** FLOP *** [Ks 6d As]
+nofoldstars: bets $0.27
+Rogerpaps2000: folds
+Uncalled bet ($0.27) returned to nofoldstars
+nofoldstars collected $0.38 from pot
+*** SUMMARY ***
+Total pot $0.40 | Rake $0.02
+Board [Ks 6d As]
+Seat 1: Rogerpaps2000 (button) folded on the Flop
+Seat 2: cherry2402 (small blind) folded before Flop
+Seat 3: nofoldstars (big blind) collected ($0.38)
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 folded before Flop (didn't bet)
+Seat 6: Fugazi Nemesis folded before Flop (didn't bet)
+
+
+*********** # 9 **************
+PokerStars Hand #257961161787:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:17:33 ET
+Table 'Draco VI' 6-max Seat #6 is the button
+Seat 1: Rogerpaps2000 ($6.67 in chips)
+Seat 2: cherry2402 ($6.26 in chips)
+Seat 3: nofoldstars ($9.41 in chips)
+Seat 4: karapyz97 ($7.25 in chips)
+Seat 5: farquan66 ($2.93 in chips)
+Seat 6: Fugazi Nemesis ($4.60 in chips)
+Rogerpaps2000: posts small blind $0.02
+cherry2402: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qh 2h]
+nofoldstars: raises $0.14 to $0.19
+karapyz97: folds
+farquan66: folds
+Fugazi Nemesis: folds
+Rogerpaps2000: calls $0.17
+cherry2402: folds
+*** FLOP *** [Qc 9d 4h]
+Rogerpaps2000: checks
+nofoldstars: bets $0.25
+Rogerpaps2000: calls $0.25
+*** TURN *** [Qc 9d 4h] [8s]
+Rogerpaps2000: checks
+nofoldstars: bets $0.05
+Rogerpaps2000: calls $0.05
+*** RIVER *** [Qc 9d 4h 8s] [Td]
+Rogerpaps2000: checks
+nofoldstars: checks
+*** SHOW DOWN ***
+Rogerpaps2000: shows [Qs Kh] (a pair of Queens)
+nofoldstars: mucks hand
+Rogerpaps2000 collected $0.98 from pot
+*** SUMMARY ***
+Total pot $1.03 | Rake $0.05
+Board [Qc 9d 4h 8s Td]
+Seat 1: Rogerpaps2000 (small blind) showed [Qs Kh] and won ($0.98) with a pair of Queens
+Seat 2: cherry2402 (big blind) folded before Flop
+Seat 3: nofoldstars mucked [Ks 8c]
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 folded before Flop (didn't bet)
+Seat 6: Fugazi Nemesis (button) folded before Flop (didn't bet)
+
+
+*********** # 10 **************
+PokerStars Hand #257961153304:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:16:53 ET
+Table 'Draco VI' 6-max Seat #5 is the button
+Seat 1: Rogerpaps2000 ($6.02 in chips)
+Seat 2: cherry2402 ($6.26 in chips)
+Seat 3: nofoldstars ($9.76 in chips)
+Seat 4: karapyz97 ($7.25 in chips)
+Seat 5: farquan66 ($2.93 in chips)
+Seat 6: Fugazi Nemesis ($4.95 in chips)
+Fugazi Nemesis: posts small blind $0.02
+Rogerpaps2000: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [8s 2s]
+cherry2402: folds
+nofoldstars: raises $0.22 to $0.27
+karapyz97: folds
+farquan66: folds
+Fugazi Nemesis: calls $0.25
+Rogerpaps2000: calls $0.22
+*** FLOP *** [4h Td Kd]
+Fugazi Nemesis: checks
+Rogerpaps2000: checks
+nofoldstars: bets $0.08
+Fugazi Nemesis: calls $0.08
+Rogerpaps2000: raises $0.61 to $0.69
+nofoldstars: folds
+Fugazi Nemesis: folds
+Uncalled bet ($0.61) returned to Rogerpaps2000
+Rogerpaps2000 collected $1 from pot
+Rogerpaps2000: doesn't show hand
+*** SUMMARY ***
+Total pot $1.05 | Rake $0.05
+Board [4h Td Kd]
+Seat 1: Rogerpaps2000 (big blind) collected ($1)
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 3: nofoldstars folded on the Flop
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 (button) folded before Flop (didn't bet)
+Seat 6: Fugazi Nemesis (small blind) folded on the Flop
+
+
+*********** # 11 **************
+PokerStars Hand #257961141096:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:15:57 ET
+Table 'Draco VI' 6-max Seat #4 is the button
+Seat 1: Rogerpaps2000 ($6.02 in chips)
+Seat 2: cherry2402 ($6.26 in chips)
+Seat 3: nofoldstars ($9.76 in chips)
+Seat 4: karapyz97 ($5 in chips)
+Seat 5: farquan66 ($5.38 in chips)
+Seat 6: Fugazi Nemesis ($5 in chips)
+farquan66: posts small blind $0.02
+Fugazi Nemesis: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Ac Ad]
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: folds
+karapyz97: raises $0.07 to $0.12
+farquan66: raises $0.13 to $0.25
+Fugazi Nemesis: folds
+karapyz97: calls $0.13
+*** FLOP *** [Jh 9d 6c]
+farquan66: bets $0.16
+karapyz97: calls $0.16
+*** TURN *** [Jh 9d 6c] [5s]
+farquan66: bets $0.42
+karapyz97: calls $0.42
+*** RIVER *** [Jh 9d 6c 5s] [6s]
+farquan66: bets $1.62
+karapyz97: calls $1.62
+*** SHOW DOWN ***
+farquan66: shows [Ac Ad] (two pair, Aces and Sixes)
+karapyz97: shows [6d Kd] (three of a kind, Sixes)
+karapyz97 collected $4.70 from pot
+*** SUMMARY ***
+Total pot $4.95 | Rake $0.25
+Board [Jh 9d 6c 5s 6s]
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 3: nofoldstars folded before Flop (didn't bet)
+Seat 4: karapyz97 (button) showed [6d Kd] and won ($4.70) with three of a kind, Sixes
+Seat 5: farquan66 (small blind) showed [Ac Ad] and lost with two pair, Aces and Sixes
+Seat 6: Fugazi Nemesis (big blind) folded before Flop
+
+
+*********** # 12 **************
+PokerStars Hand #257961137637:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:15:41 ET
+Table 'Draco VI' 6-max Seat #3 is the button
+Seat 1: Rogerpaps2000 ($6.02 in chips)
+Seat 2: cherry2402 ($6.26 in chips)
+Seat 3: nofoldstars ($9.69 in chips)
+Seat 4: karapyz97 ($5 in chips)
+Seat 5: farquan66 ($5.43 in chips)
+karapyz97: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qs 2h]
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: raises $0.15 to $0.20
+karapyz97: folds
+farquan66: folds
+Uncalled bet ($0.15) returned to nofoldstars
+nofoldstars collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 3: nofoldstars (button) collected ($0.12)
+Seat 4: karapyz97 (small blind) folded before Flop
+Seat 5: farquan66 (big blind) folded before Flop
+
+
+*********** # 13 **************
+PokerStars Hand #257961127946:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:14:57 ET
+Table 'Draco VI' 6-max Seat #2 is the button
+Seat 1: Rogerpaps2000 ($4.74 in chips)
+Seat 2: cherry2402 ($6.26 in chips)
+Seat 3: nofoldstars ($11.06 in chips)
+Seat 4: karapyz97 ($5 in chips)
+Seat 5: farquan66 ($5.43 in chips)
+nofoldstars: posts small blind $0.02
+karapyz97: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [7c 2s]
+farquan66: folds
+Rogerpaps2000: raises $0.07 to $0.12
+cherry2402: folds
+nofoldstars: calls $0.10
+karapyz97: folds
+*** FLOP *** [3d Kc Ac]
+nofoldstars: bets $0.05
+Rogerpaps2000: raises $0.20 to $0.25
+nofoldstars: calls $0.20
+*** TURN *** [3d Kc Ac] [4h]
+nofoldstars: checks
+Rogerpaps2000: bets $1
+nofoldstars: calls $1
+*** RIVER *** [3d Kc Ac 4h] [5s]
+nofoldstars: checks
+Rogerpaps2000: checks
+*** SHOW DOWN ***
+nofoldstars: shows [3c 5c] (two pair, Fives and Threes)
+Rogerpaps2000: shows [Ah As] (three of a kind, Aces)
+Rogerpaps2000 collected $2.65 from pot
+*** SUMMARY ***
+Total pot $2.79 | Rake $0.14
+Board [3d Kc Ac 4h 5s]
+Seat 1: Rogerpaps2000 showed [Ah As] and won ($2.65) with three of a kind, Aces
+Seat 2: cherry2402 (button) folded before Flop (didn't bet)
+Seat 3: nofoldstars (small blind) showed [3c 5c] and lost with two pair, Fives and Threes
+Seat 4: karapyz97 (big blind) folded before Flop
+Seat 5: farquan66 folded before Flop (didn't bet)
+
+
+*********** # 14 **************
+PokerStars Hand #257961125658:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:14:46 ET
+Table 'Draco VI' 6-max Seat #1 is the button
+Seat 1: Rogerpaps2000 ($4.74 in chips)
+Seat 2: cherry2402 ($6.28 in chips)
+Seat 3: nofoldstars ($11.04 in chips)
+Seat 4: karapyz97 ($5 in chips)
+Seat 5: farquan66 ($5.43 in chips)
+cherry2402: posts small blind $0.02
+nofoldstars: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qc 5s]
+karapyz97: folds
+farquan66: folds
+Rogerpaps2000: folds
+cherry2402: folds
+Uncalled bet ($0.03) returned to nofoldstars
+nofoldstars collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: Rogerpaps2000 (button) folded before Flop (didn't bet)
+Seat 2: cherry2402 (small blind) folded before Flop
+Seat 3: nofoldstars (big blind) collected ($0.04)
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 folded before Flop (didn't bet)
+
+
+*********** # 15 **************
+PokerStars Hand #257961120380:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:14:21 ET
+Table 'Draco VI' 6-max Seat #5 is the button
+Seat 1: Rogerpaps2000 ($4.76 in chips)
+Seat 2: cherry2402 ($6.33 in chips)
+Seat 3: nofoldstars ($10.97 in chips)
+Seat 4: karapyz97 ($5 in chips)
+Seat 5: farquan66 ($5.43 in chips)
+Fugazi Nemesis will be allowed to play after the button
+Rogerpaps2000: posts small blind $0.02
+cherry2402: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [9h 5c]
+nofoldstars: raises $0.15 to $0.20
+karapyz97: folds
+farquan66: folds
+Rogerpaps2000: folds
+cherry2402: folds
+Uncalled bet ($0.15) returned to nofoldstars
+nofoldstars collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: Rogerpaps2000 (small blind) folded before Flop
+Seat 2: cherry2402 (big blind) folded before Flop
+Seat 3: nofoldstars collected ($0.12)
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 (button) folded before Flop (didn't bet)
+
+
+*********** # 16 **************
+PokerStars Hand #257961100980:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:12:50 ET
+Table 'Draco VI' 6-max Seat #4 is the button
+Seat 1: Rogerpaps2000 ($4.81 in chips)
+Seat 2: cherry2402 ($6.33 in chips)
+Seat 3: nofoldstars ($12.23 in chips)
+Seat 4: karapyz97 ($5.18 in chips)
+Seat 5: farquan66 ($3.96 in chips)
+farquan66: posts small blind $0.02
+Rogerpaps2000: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Jd Jc]
+cherry2402: folds
+nofoldstars: raises $0.05 to $0.10
+karapyz97: calls $0.10
+ascaron1st leaves the table
+farquan66: raises $0.20 to $0.30
+Rogerpaps2000: folds
+nofoldstars: calls $0.20
+karapyz97: calls $0.20
+*** FLOP *** [Jh Qs 2h]
+farquan66: bets $0.29
+nofoldstars: calls $0.29
+karapyz97: folds
+*** TURN *** [Jh Qs 2h] [5d]
+farquan66: checks
+nofoldstars: bets $0.67
+farquan66: calls $0.67
+*** RIVER *** [Jh Qs 2h 5d] [Ah]
+farquan66: checks
+nofoldstars: checks
+*** SHOW DOWN ***
+farquan66: shows [Jd Jc] (three of a kind, Jacks)
+nofoldstars: mucks hand
+farquan66 collected $2.73 from pot
+Fugazi Nemesis joins the table at seat #6
+*** SUMMARY ***
+Total pot $2.87 | Rake $0.14
+Board [Jh Qs 2h 5d Ah]
+Seat 1: Rogerpaps2000 (big blind) folded before Flop
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 3: nofoldstars mucked [Qh 6s]
+Seat 4: karapyz97 (button) folded on the Flop
+Seat 5: farquan66 (small blind) showed [Jd Jc] and won ($2.73) with three of a kind, Jacks
+
+
+*********** # 17 **************
+PokerStars Hand #257961093342:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:12:14 ET
+Table 'Draco VI' 6-max Seat #3 is the button
+Seat 1: Rogerpaps2000 ($4.81 in chips)
+Seat 2: cherry2402 ($6.33 in chips)
+Seat 3: nofoldstars ($12.36 in chips)
+Seat 4: karapyz97 ($5.20 in chips)
+Seat 5: farquan66 ($3.81 in chips)
+karapyz97: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Kd As]
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: raises $0.08 to $0.13
+karapyz97: folds
+farquan66: raises $0.28 to $0.41
+nofoldstars: folds
+Uncalled bet ($0.28) returned to farquan66
+farquan66 collected $0.28 from pot
+farquan66: doesn't show hand
+*** SUMMARY ***
+Total pot $0.28 | Rake $0
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 3: nofoldstars (button) folded before Flop
+Seat 4: karapyz97 (small blind) folded before Flop
+Seat 5: farquan66 (big blind) collected ($0.28)
+
+
+*********** # 18 **************
+PokerStars Hand #257961082823:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:11:25 ET
+Table 'Draco VI' 6-max Seat #2 is the button
+Seat 1: Rogerpaps2000 ($4.81 in chips)
+Seat 2: cherry2402 ($6.33 in chips)
+Seat 3: nofoldstars ($12.58 in chips)
+Seat 4: karapyz97 ($5 in chips)
+Seat 5: farquan66 ($3.81 in chips)
+nofoldstars: posts small blind $0.02
+karapyz97: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [2h 7c]
+farquan66: folds
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: raises $0.06 to $0.11
+karapyz97: calls $0.06
+*** FLOP *** [8d 9c 6h]
+nofoldstars: bets $0.06
+karapyz97: calls $0.06
+*** TURN *** [8d 9c 6h] [6d]
+nofoldstars: bets $0.05
+karapyz97: calls $0.05
+*** RIVER *** [8d 9c 6h 6d] [Tc]
+nofoldstars: checks
+karapyz97: bets $0.55
+nofoldstars: folds
+Uncalled bet ($0.55) returned to karapyz97
+karapyz97 collected $0.42 from pot
+karapyz97: doesn't show hand
+*** SUMMARY ***
+Total pot $0.44 | Rake $0.02
+Board [8d 9c 6h 6d Tc]
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 (button) folded before Flop (didn't bet)
+Seat 3: nofoldstars (small blind) folded on the River
+Seat 4: karapyz97 (big blind) collected ($0.42)
+Seat 5: farquan66 folded before Flop (didn't bet)
+
+
+*********** # 19 **************
+PokerStars Hand #257961075362:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:10:50 ET
+Table 'Draco VI' 6-max Seat #1 is the button
+Seat 1: Rogerpaps2000 ($4.81 in chips)
+Seat 2: cherry2402 ($6.35 in chips)
+Seat 3: nofoldstars ($12.41 in chips)
+Seat 4: karapyz97 ($5.07 in chips)
+Seat 5: farquan66 ($3.81 in chips)
+cherry2402: posts small blind $0.02
+nofoldstars: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [2s 5c]
+karapyz97: calls $0.05
+farquan66: folds
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: raises $0.05 to $0.10
+karapyz97: calls $0.05
+*** FLOP *** [Tc Qd Qs]
+nofoldstars: bets $0.07
+karapyz97: calls $0.07
+*** TURN *** [Tc Qd Qs] [Jc]
+nofoldstars: bets $0.08
+karapyz97: folds
+Uncalled bet ($0.08) returned to nofoldstars
+nofoldstars collected $0.34 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.02
+Board [Tc Qd Qs Jc]
+Seat 1: Rogerpaps2000 (button) folded before Flop (didn't bet)
+Seat 2: cherry2402 (small blind) folded before Flop
+Seat 3: nofoldstars (big blind) collected ($0.34)
+Seat 4: karapyz97 folded on the Turn
+Seat 5: farquan66 folded before Flop (didn't bet)
+
+
+*********** # 20 **************
+PokerStars Hand #257961072249:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:10:35 ET
+Table 'Draco VI' 6-max Seat #5 is the button
+Seat 1: Rogerpaps2000 ($4.83 in chips)
+Seat 2: cherry2402 ($6.40 in chips)
+Seat 3: nofoldstars ($12.34 in chips)
+Seat 4: karapyz97 ($5.07 in chips)
+Seat 5: farquan66 ($3.81 in chips)
+Rogerpaps2000: posts small blind $0.02
+cherry2402: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [3h Qh]
+nofoldstars: raises $0.20 to $0.25
+karapyz97: folds
+farquan66: folds
+Rogerpaps2000: folds
+cherry2402: folds
+Uncalled bet ($0.20) returned to nofoldstars
+nofoldstars collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: Rogerpaps2000 (small blind) folded before Flop
+Seat 2: cherry2402 (big blind) folded before Flop
+Seat 3: nofoldstars collected ($0.12)
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 (button) folded before Flop (didn't bet)
+
+
+*********** # 21 **************
+PokerStars Hand #257961069126:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:10:21 ET
+Table 'Draco VI' 6-max Seat #4 is the button
+Seat 1: Rogerpaps2000 ($4.88 in chips)
+Seat 2: cherry2402 ($6.40 in chips)
+Seat 4: karapyz97 ($5 in chips)
+Seat 5: farquan66 ($3.83 in chips)
+farquan66: posts small blind $0.02
+Rogerpaps2000: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [4h Ts]
+cherry2402: folds
+karapyz97: raises $0.07 to $0.12
+farquan66: folds
+Rogerpaps2000: folds
+Uncalled bet ($0.07) returned to karapyz97
+karapyz97 collected $0.12 from pot
+karapyz97: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: Rogerpaps2000 (big blind) folded before Flop
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 4: karapyz97 (button) collected ($0.12)
+Seat 5: farquan66 (small blind) folded before Flop
+
+
+*********** # 22 **************
+PokerStars Hand #257961052287:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:09:02 ET
+Table 'Draco VI' 6-max Seat #3 is the button
+Seat 1: Rogerpaps2000 ($4.88 in chips)
+Seat 2: cherry2402 ($5.39 in chips)
+Seat 3: nofoldstars ($12.34 in chips)
+Seat 4: karapyz97 ($5 in chips)
+Seat 5: farquan66 ($4.93 in chips)
+Seat 6: ascaron1st ($5 in chips)
+karapyz97: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qh Ks]
+ascaron1st: folds
+Rogerpaps2000: folds
+cherry2402: raises $0.07 to $0.12
+nofoldstars is disconnected
+nofoldstars has timed out while disconnected
+nofoldstars: folds
+karapyz97: folds
+farquan66: calls $0.07
+*** FLOP *** [6d 9c 4h]
+farquan66: checks
+cherry2402: bets $0.44
+farquan66: calls $0.44
+*** TURN *** [6d 9c 4h] [Ac]
+farquan66: bets $0.54
+cherry2402: raises $4.29 to $4.83 and is all-in
+farquan66: folds
+Uncalled bet ($4.29) returned to cherry2402
+cherry2402 collected $2.11 from pot
+cherry2402: doesn't show hand
+*** SUMMARY ***
+Total pot $2.22 | Rake $0.11
+Board [6d 9c 4h Ac]
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 collected ($2.11)
+Seat 3: nofoldstars (button) folded before Flop (didn't bet)
+Seat 4: karapyz97 (small blind) folded before Flop
+Seat 5: farquan66 (big blind) folded on the Turn
+Seat 6: ascaron1st folded before Flop (didn't bet)
+
+
+*********** # 23 **************
+PokerStars Hand #257961046436:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:08:34 ET
+Table 'Draco VI' 6-max Seat #2 is the button
+Seat 1: Rogerpaps2000 ($4.88 in chips)
+Seat 2: cherry2402 ($5.60 in chips)
+Seat 3: nofoldstars ($12.10 in chips)
+Seat 4: karapyz97 ($5 in chips)
+Seat 5: farquan66 ($4.93 in chips)
+Seat 6: ascaron1st ($5 in chips)
+nofoldstars: posts small blind $0.02
+karapyz97: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qh 6h]
+farquan66: folds
+ascaron1st: folds
+Rogerpaps2000: folds
+cherry2402: raises $0.07 to $0.12
+nofoldstars: calls $0.10
+karapyz97: folds
+*** FLOP *** [5s 2h Ts]
+nofoldstars: checks
+cherry2402: bets $0.09
+nofoldstars: raises $0.09 to $0.18
+cherry2402: folds
+Uncalled bet ($0.09) returned to nofoldstars
+nofoldstars collected $0.45 from pot
+*** SUMMARY ***
+Total pot $0.47 | Rake $0.02
+Board [5s 2h Ts]
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 (button) folded on the Flop
+Seat 3: nofoldstars (small blind) collected ($0.45)
+Seat 4: karapyz97 (big blind) folded before Flop
+Seat 5: farquan66 folded before Flop (didn't bet)
+Seat 6: ascaron1st folded before Flop (didn't bet)
+
+
+*********** # 24 **************
+PokerStars Hand #257961023832:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:06:48 ET
+Table 'Draco VI' 6-max Seat #1 is the button
+Seat 1: Rogerpaps2000 ($5.62 in chips)
+Seat 2: cherry2402 ($5.62 in chips)
+Seat 3: nofoldstars ($9.32 in chips)
+Seat 4: karapyz97 ($7.05 in chips)
+Seat 5: farquan66 ($4.93 in chips)
+Seat 6: ascaron1st ($5 in chips)
+cherry2402: posts small blind $0.02
+nofoldstars: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [3h 2c]
+karapyz97: raises $0.06 to $0.11
+farquan66: folds
+ascaron1st: folds
+Rogerpaps2000: raises $0.27 to $0.38
+cherry2402: folds
+nofoldstars: calls $0.33
+karapyz97: calls $0.27
+*** FLOP *** [7c Kd Td]
+nofoldstars: checks
+karapyz97: checks
+Rogerpaps2000: bets $0.36
+nofoldstars: calls $0.36
+karapyz97: calls $0.36
+*** TURN *** [7c Kd Td] [9s]
+nofoldstars: checks
+karapyz97: checks
+Rogerpaps2000: checks
+*** RIVER *** [7c Kd Td 9s] [6d]
+nofoldstars: checks
+karapyz97: bets $1.55
+Rogerpaps2000: folds
+nofoldstars: calls $1.55
+*** SHOW DOWN ***
+karapyz97: shows [8d 8s] (a straight, Six to Ten)
+nofoldstars: shows [Jc Qc] (a straight, Nine to King)
+nofoldstars collected $5.07 from pot
+*** SUMMARY ***
+Total pot $5.34 | Rake $0.27
+Board [7c Kd Td 9s 6d]
+Seat 1: Rogerpaps2000 (button) folded on the River
+Seat 2: cherry2402 (small blind) folded before Flop
+Seat 3: nofoldstars (big blind) showed [Jc Qc] and won ($5.07) with a straight, Nine to King
+Seat 4: karapyz97 showed [8d 8s] and lost with a straight, Six to Ten
+Seat 5: farquan66 folded before Flop (didn't bet)
+Seat 6: ascaron1st folded before Flop (didn't bet)
+
+
+*********** # 25 **************
+PokerStars Hand #257961016431:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:06:12 ET
+Table 'Draco VI' 6-max Seat #6 is the button
+Seat 1: Rogerpaps2000 ($5.64 in chips)
+Seat 2: cherry2402 ($5.33 in chips)
+Seat 3: nofoldstars ($9.59 in chips)
+Seat 4: karapyz97 ($7.05 in chips)
+Seat 5: farquan66 ($4.93 in chips)
+Seat 6: ascaron1st ($5 in chips)
+Rogerpaps2000: posts small blind $0.02
+cherry2402: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [3c 8s]
+nofoldstars: raises $0.22 to $0.27
+karapyz97: folds
+farquan66: folds
+ascaron1st: folds
+Rogerpaps2000: folds
+cherry2402: raises $5.06 to $5.33 and is all-in
+nofoldstars: folds
+Uncalled bet ($5.06) returned to cherry2402
+cherry2402 collected $0.56 from pot
+cherry2402: doesn't show hand
+*** SUMMARY ***
+Total pot $0.56 | Rake $0
+Seat 1: Rogerpaps2000 (small blind) folded before Flop
+Seat 2: cherry2402 (big blind) collected ($0.56)
+Seat 3: nofoldstars folded before Flop
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 folded before Flop (didn't bet)
+Seat 6: ascaron1st (button) folded before Flop (didn't bet)
+
+
+*********** # 26 **************
+PokerStars Hand #257961009259:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:05:38 ET
+Table 'Draco VI' 6-max Seat #5 is the button
+Seat 1: Rogerpaps2000 ($5.24 in chips)
+Seat 2: cherry2402 ($5.33 in chips)
+Seat 3: nofoldstars ($9.79 in chips)
+Seat 4: karapyz97 ($7.05 in chips)
+Seat 5: farquan66 ($4.93 in chips)
+Seat 6: ascaron1st ($5 in chips)
+ascaron1st: posts small blind $0.02
+Rogerpaps2000: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [4h 5c]
+cherry2402: folds
+nofoldstars: raises $0.15 to $0.20
+karapyz97: folds
+farquan66: folds
+ascaron1st: calls $0.18
+Rogerpaps2000: raises $0.70 to $0.90
+nofoldstars: folds
+ascaron1st: folds
+Uncalled bet ($0.70) returned to Rogerpaps2000
+Rogerpaps2000 collected $0.60 from pot
+Rogerpaps2000: doesn't show hand
+*** SUMMARY ***
+Total pot $0.60 | Rake $0
+Seat 1: Rogerpaps2000 (big blind) collected ($0.60)
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 3: nofoldstars folded before Flop
+Seat 4: karapyz97 folded before Flop (didn't bet)
+Seat 5: farquan66 (button) folded before Flop (didn't bet)
+Seat 6: ascaron1st (small blind) folded before Flop
+
+
+*********** # 27 **************
+PokerStars Hand #257960997232:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:04:40 ET
+Table 'Draco VI' 6-max Seat #4 is the button
+Seat 1: Rogerpaps2000 ($5.24 in chips)
+Seat 2: cherry2402 ($5.33 in chips)
+Seat 3: nofoldstars ($5.27 in chips)
+Seat 4: karapyz97 ($7.05 in chips)
+Seat 5: farquan66 ($4.95 in chips)
+Seat 6: ascaron1st ($5 in chips)
+farquan66: posts small blind $0.02
+ascaron1st: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [Qs 6h]
+Rogerpaps2000 has timed out
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: raises $0.15 to $0.20
+karapyz97: folds
+farquan66: folds
+ascaron1st: raises $0.35 to $0.55
+nofoldstars: calls $0.35
+*** FLOP *** [6s 9d Tc]
+ascaron1st: bets $0.80
+nofoldstars: raises $3.40 to $4.20
+ascaron1st: raises $0.25 to $4.45 and is all-in
+nofoldstars: calls $0.25
+*** TURN *** [6s 9d Tc] [2d]
+*** RIVER *** [6s 9d Tc 2d] [2c]
+*** SHOW DOWN ***
+ascaron1st: shows [Jh Jc] (two pair, Jacks and Deuces)
+nofoldstars: shows [9c 9h] (a full house, Nines full of Deuces)
+nofoldstars collected $9.52 from pot
+*** SUMMARY ***
+Total pot $10.02 | Rake $0.50
+Board [6s 9d Tc 2d 2c]
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 3: nofoldstars showed [9c 9h] and won ($9.52) with a full house, Nines full of Deuces
+Seat 4: karapyz97 (button) folded before Flop (didn't bet)
+Seat 5: farquan66 (small blind) folded before Flop
+Seat 6: ascaron1st (big blind) showed [Jh Jc] and lost with two pair, Jacks and Deuces
+
+
+*********** # 28 **************
+PokerStars Hand #257960988256:  Hold'em No Limit ($0.02/$0.05 USD) - 2025/10/01 14:03:57 ET
+Table 'Draco VI' 6-max Seat #3 is the button
+Seat 1: Rogerpaps2000 ($5.24 in chips)
+Seat 2: cherry2402 ($5.33 in chips)
+Seat 3: nofoldstars ($5 in chips)
+Seat 4: karapyz97 ($7.07 in chips)
+Seat 5: farquan66 ($5 in chips)
+Seat 6: ascaron1st ($5.09 in chips)
+karapyz97: posts small blind $0.02
+farquan66: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to farquan66 [3s Js]
+ascaron1st: raises $0.08 to $0.13
+Rogerpaps2000: folds
+cherry2402: folds
+nofoldstars: calls $0.13
+karapyz97: folds
+farquan66: folds
+*** FLOP *** [7h 7s 3c]
+ascaron1st: checks
+nofoldstars: bets $0.05
+ascaron1st: calls $0.05
+*** TURN *** [7h 7s 3c] [9d]
+ascaron1st: checks
+nofoldstars: bets $0.05
+ascaron1st: calls $0.05
+*** RIVER *** [7h 7s 3c 9d] [3h]
+ascaron1st: checks
+nofoldstars: bets $0.40
+ascaron1st: folds
+Uncalled bet ($0.40) returned to nofoldstars
+nofoldstars collected $0.50 from pot
+*** SUMMARY ***
+Total pot $0.53 | Rake $0.03
+Board [7h 7s 3c 9d 3h]
+Seat 1: Rogerpaps2000 folded before Flop (didn't bet)
+Seat 2: cherry2402 folded before Flop (didn't bet)
+Seat 3: nofoldstars (button) collected ($0.50)
+Seat 4: karapyz97 (small blind) folded before Flop
+Seat 5: farquan66 (big blind) folded before Flop
+Seat 6: ascaron1st folded on the River

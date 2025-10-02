@@ -107,4 +107,7 @@ def staging_to_clean(user_id, session_notes=None):
     if all_actions:
         supabase.table("actions").insert(all_actions).execute()
 
+    supabase.table("staging_hands").delete().eq("status", "success").execute()
+
+
     print(f"✅ Moved {len(all_hands)} hands into session {session_id}")
